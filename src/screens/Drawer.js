@@ -95,7 +95,7 @@ class Menu extends React.Component {
                 marginTop: 15
               }}
             >
-              Atique Panoti
+              Atique Ahmed
             </Text>
           </View>
           <TouchableOpacity

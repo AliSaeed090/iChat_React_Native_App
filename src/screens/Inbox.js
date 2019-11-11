@@ -71,7 +71,8 @@ export default class Inbox extends Component {
           {this.state.arr.map((data, index) => {
             return (
               <TouchableOpacity
-              key={index}
+                onPress={() => this.props.navigation.navigate("SignUp")}
+                key={index}
                 style={{
                   width: "100%",
                   height: 90,
@@ -105,9 +106,7 @@ export default class Inbox extends Component {
                     >
                       {data.name}
                     </Text>
-                    <Text style={{ fontSize: 15 }}>
-                      {data.msg}
-                    </Text>
+                    <Text style={{ fontSize: 15 }}>{data.msg}</Text>
                   </View>
                   <Text
                     style={{
@@ -117,7 +116,7 @@ export default class Inbox extends Component {
                       right: 5
                     }}
                   >
-                   {data.time}
+                    {data.time}
                   </Text>
                 </View>
               </TouchableOpacity>

@@ -9,6 +9,7 @@ import Drawer from "./Drawer";
 import NewsFeed from "./NewsFeed";
 import Home from "./Home";
 import GlobalHeader from "../components/GlobalHeader";
+import Chat from "./Chat";
 
 const AppNavigator = createStackNavigator(
   {
@@ -56,6 +57,12 @@ const AppNavigator = createStackNavigator(
     },
     GlobalHeader: {
       screen: GlobalHeader,
+      navigationOptions: () => ({
+        header: null
+      })
+    },
+    Chat: {
+      screen: Chat,
       navigationOptions: () => ({
         header: null
       })

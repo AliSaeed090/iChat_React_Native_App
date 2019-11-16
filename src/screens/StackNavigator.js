@@ -10,6 +10,7 @@ import NewsFeed from "./NewsFeed";
 import Home from "./Home";
 import GlobalHeader from "../components/GlobalHeader";
 import Chat from "./Chat";
+import CallHistory from "./CallHistory";
 
 const AppNavigator = createStackNavigator(
   {
@@ -63,6 +64,12 @@ const AppNavigator = createStackNavigator(
     },
     Chat: {
       screen: Chat,
+      navigationOptions: () => ({
+        header: null
+      })
+    },
+    CallHistory: {
+      screen: CallHistory,
       navigationOptions: () => ({
         header: null
       })

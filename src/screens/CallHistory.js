@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Text, View, Image, TouchableOpacity } from "react-native";
 import { Container, Content } from "native-base";
+import Feather from "react-native-vector-icons/Feather";
 
 export default class Inbox extends Component {
   constructor() {
@@ -10,56 +11,48 @@ export default class Inbox extends Component {
         {
           img: require("../../assets/images/p.png"),
           name: "James Atique",
-          msg: "Good Morning! Lorem Ipsum is simply dummy text",
-          time: "11:00"
+          time: "November 28 11:00"
         },
         {
           img: require("../../assets/images/p1.jpeg"),
           name: "Fahad Nazir",
-          msg: "Good Morning! Lorem Ipsum is simply dummy text",
-          time: "11:00"
+          time: "November 28 11:00"
         },
         {
           img: require("../../assets/images/p.png"),
           name: "Ali Farooq",
           msg: "Good Morning! Lorem Ipsum is simply dummy text",
-          time: "11:00"
+          time: "November 28 11:00"
         },
         {
           img: require("../../assets/images/p4t.png"),
           name: "Karwan Topi",
-          msg: "Good Morning! Lorem Ipsum is simply dummy text",
-          time: "11:00"
+          time: "November 28 11:00"
         },
         {
           img: require("../../assets/images/p4t.png"),
           name: "Atique Ahmed",
-          msg: "Good Morning! Lorem Ipsum is simply dummy text",
-          time: "11:00"
+          time: "November 28 11:00"
         },
         {
           img: require("../../assets/images/p4t.png"),
           name: "Asher Baig",
-          msg: "Good Morning! Lorem Ipsum is simply dummy text",
-          time: "11:00"
+          time: "November 28 11:00"
         },
         {
           img: require("../../assets/images/p.png"),
           name: "Hammad Azeem",
-          msg: "Good Morning! Lorem Ipsum is simply dummy text",
-          time: "11:00"
+          time: "November 28 11:00"
         },
         {
           img: require("../../assets/images/p4t.png"),
           name: "Ali Saeed",
-          msg: "Good Morning! Lorem Ipsum is simply dummy text",
-          time: "11:00"
+          time: "November 28 11:00"
         },
         {
           img: require("../../assets/images/p.png"),
           name: "Asher",
-          msg: "Good Morning! Lorem Ipsum is simply dummy text",
-          time: "11:00"
+          time: "November 28 11:00"
         }
       ]
     };
@@ -71,7 +64,7 @@ export default class Inbox extends Component {
           {this.state.arr.map((data, index) => {
             return (
               <TouchableOpacity
-                onPress={() => this.props.navigation.navigate("Chat")}
+                onPress={() => this.props.navigation.navigate("SignUp")}
                 key={index}
                 style={{
                   width: "100%",
@@ -84,40 +77,48 @@ export default class Inbox extends Component {
               >
                 <View
                   style={{
-                    flexDirection: "row",
-                    width: "90%",
+                    width: "85%",
                     alignSelf: "center",
-                    alignItems: "center"
+                    justifyContent: "center"
                   }}
                 >
-                  <View>
-                    <Image
-                      style={{ width: 60, height: 60, resizeMode: "contain" }}
-                      source={data.img}
-                    />
-                  </View>
-                  <View style={{ width: "65%", marginLeft: 10 }}>
-                    <Text
-                      style={{
-                        fontSize: 17,
-                        fontWeight: "bold",
-                        color: "black"
-                      }}
-                    >
-                      {data.name}
-                    </Text>
-                    <Text style={{ fontSize: 15 }}>{data.msg}</Text>
-                  </View>
-                  <Text
+                  <View
                     style={{
-                      fontSize: 15,
-                      position: "absolute",
-                      top: 5,
-                      right: 5
+                      flexDirection: "row",
+                      width: "85%",
+                      //   alignSelf: "center",
+                      alignItems: "center"
                     }}
                   >
-                    {data.time}
-                  </Text>
+                    <View>
+                      <Image
+                        style={{ width: 60, height: 60, resizeMode: "contain" }}
+                        source={data.img}
+                      />
+                    </View>
+                    <View style={{ width: "85%", marginLeft: 10 }}>
+                      <Text
+                        style={{
+                          fontSize: 17,
+                          fontWeight: "bold",
+                          color: "black"
+                        }}
+                      >
+                        {data.name}
+                      </Text>
+                      <Text style={{ fontSize: 15 }}>{data.time}</Text>
+                    </View>
+                    <View
+                      style={{
+                        width: "20%",
+                        // borderWidth: 1,
+                        height: 40,
+                        justifyContent: "center"
+                      }}
+                    >
+                      <Feather name="phone-call" size={22} color="#154a63" />
+                    </View>
+                  </View>
                 </View>
               </TouchableOpacity>
             );

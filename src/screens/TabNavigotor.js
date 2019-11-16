@@ -10,13 +10,15 @@ import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityI
 import Entypo from "react-native-vector-icons/Entypo";
 import Inbox from "./Inbox";
 import NewsFeed from "./NewsFeed";
+import CallHistory from "./CallHistory";
+import Chat from "./Chat";
 
 const TabNavigator = createMaterialTopTabNavigator(
   {
     Home: {
       screen: NewsFeed,
 
-      navigationOptions: () => ({
+      navigationOptions: navigation => ({
         tabBarIcon: () => (
           <MaterialCommunityIcons
             style={{ alignSelf: "center" }}
@@ -31,16 +33,16 @@ const TabNavigator = createMaterialTopTabNavigator(
     Settings: {
       screen: Inbox,
 
-      navigationOptions: () => ({
+      navigationOptions: navigation => ({
         tabBarIcon: () => (
-          <Entypo size={30} color="white" name="chat" style={{ width: 30 }} />
+          <Entypo size={27} color="white" name="chat" style={{ width: 30 }} />
 
           //<Image style={{width:30, height:30, resizeMode:'contain'}} source={require("../../assets/images/reader.png")} />
         )
       })
     },
     Ilma: {
-      screen: Inbox,
+      screen: CallHistory,
 
       navigationOptions: () => ({
         tabBarIcon: () => (
@@ -56,6 +58,17 @@ const TabNavigator = createMaterialTopTabNavigator(
     }
   },
   {
+    navigationOptions: {
+      Chat: {
+        screen: Chat
+      },
+      defaultNavigationOptions: {
+        Chat: {
+          screen: Chat
+        }
+      }
+    },
+
     tabBarOptions: {
       showIcon: true,
       showLabel: false,
@@ -82,4 +95,4 @@ const TabNavigator = createMaterialTopTabNavigator(
   }
 );
 
-export default createAppContainer(TabNavigator);
+export default createAppContainer(TabNavigator, Chat);

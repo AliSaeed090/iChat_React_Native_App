@@ -14,7 +14,10 @@ import FontAwesome from "react-native-vector-icons/FontAwesome";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import Home from "./Home";
 import Contact from "./Contact";
+import TermAndCond from "./TermAndCond";
 import GlobalHeader from "../components/GlobalHeader";
+import ContactUs from "./ContactUs";
+import PrivacyPolicy from "./PrivacyPolicy";
 
 const WIDTH = Dimensions.get("window").width;
 const DrawerConfig = {
@@ -32,29 +35,29 @@ export default createDrawerNavigator(
   {
     TermsService: {
       screen: Contact
-    }
-    // Timing: {
-    //   screen: GlobalHeader
-    // }
+    },
+    Timing: {
+      screen: GlobalHeader
+    },
 
-    // DelieverySchedule: {
-    //   screen: Contact
-    // },
-    // Products: {
-    //   screen: Contact
-    // },
-    // OrderHistory: {
-    //   screen: Contact
-    // },
-    // FeedbackandRating: {
-    //   screen: Contact
-    // }
-    // customerSupport: {
-    //     screen: customerSupport
-    // },
-    // logout: {
-    //         screen: logout
-    //     },
+    TermAndCond: {
+      screen: TermAndCond
+    },
+    ContactUs: {
+      screen: ContactUs
+    },
+    PrivacyPolicy: {
+      screen: PrivacyPolicy
+    },
+    FeedbackandRating: {
+      screen: Contact
+    },
+    customerSupport: {
+      screen: Contact
+    },
+    logout: {
+      screen: Contact
+    }
   },
 
   DrawerConfig
@@ -113,7 +116,7 @@ class Menu extends React.Component {
 
           <TouchableOpacity
             style={styles.imageView}
-            onPress={() => this.props.navigation.navigate("Contact")}
+            onPress={() => this.props.navigation.navigate("PrivacyPolicy")}
           >
             <FontAwesome
               name="phone"
@@ -136,7 +139,7 @@ class Menu extends React.Component {
 
           <TouchableOpacity
             style={styles.imageView}
-            onPress={() => this.props.navigation.navigate("Contact")}
+            onPress={() => this.props.navigation.navigate("ContactUs")}
           >
             <FontAwesome
               name="phone"
@@ -160,7 +163,7 @@ class Menu extends React.Component {
 
           <TouchableOpacity
             style={styles.imageView}
-            onPress={() => this.props.navigation.navigate("Contact")}
+            onPress={() => this.props.navigation.navigate("ContactUs")}
           >
             <Ionicons
               name="md-settings"

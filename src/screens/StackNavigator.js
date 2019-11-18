@@ -11,6 +11,7 @@ import Home from "./Home";
 import GlobalHeader from "../components/GlobalHeader";
 import Chat from "./Chat";
 import CallHistory from "./CallHistory";
+import CodePicker from "../components/CodePicker";
 
 const AppNavigator = createStackNavigator(
   {
@@ -73,11 +74,17 @@ const AppNavigator = createStackNavigator(
       navigationOptions: () => ({
         header: null
       })
+    },
+    CodePicker: {
+      screen: CodePicker,
+      navigationOptions: () => ({
+        header: null
+      })
     }
   },
 
   {
-    initialRouteName: "SignUp"
+    initialRouteName: "CodePicker"
   }
 );
 

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "105706200372",
+    "firebase_url": "https://ichatreactnative.firebaseio.com",
+    "project_id": "ichatreactnative",
+    "storage_bucket": "ichatreactnative.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105706200372:android:7d6aa0fc0ceb4b0d0cd961",
+        "android_client_info": {
+          "package_name": "com.ichat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105706200372-u3tmrg45erqtdip4f4b5dmkju056pmrm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-ee279sWDROmibYzyPILBLa1M5sIQvVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105706200372-u3tmrg45erqtdip4f4b5dmkju056pmrm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

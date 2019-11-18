@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">105706200372-u3tmrg45erqtdip4f4b5dmkju056pmrm.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://ichatreactnative.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">105706200372</string>
+    <string name="google_api_key" translatable="false">AIzaSyC-ee279sWDROmibYzyPILBLa1M5sIQvVs</string>
+    <string name="google_app_id" translatable="false">1:105706200372:android:7d6aa0fc0ceb4b0d0cd961</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC-ee279sWDROmibYzyPILBLa1M5sIQvVs</string>
+    <string name="google_storage_bucket" translatable="false">ichatreactnative.appspot.com</string>
+    <string name="project_id" translatable="false">ichatreactnative</string>
+</resources>

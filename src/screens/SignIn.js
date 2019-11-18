@@ -7,9 +7,21 @@ import {
   ImageBackground,
   Image
 } from "react-native";
+import firebase from "react-native-firebase";
 import { Container, Content } from "native-base";
 import GlobalHeader from "../components/GlobalHeader";
 export default class SignIn extends Component {
+  SignIn = () => {
+    firebase
+      .auth()
+      .signInWithPhoneNumber("+923132532908")
+      .then(confirmResult => {
+        console.log(confirmResult);
+      })
+      .catch(error => {
+        console.log(error);
+      });
+  };
   render() {
     return (
       <Container style={{ backgroundColor: "#1f2532" }}>
@@ -97,7 +109,7 @@ export default class SignIn extends Component {
               />
 
               <TouchableOpacity
-                onPress={() => this.props.navigation.navigate("Drawer")}
+                onPress={() => this.SignIn()}
                 style={{
                   width: "95%",
                   height: 50,

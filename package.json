@@ -10,6 +10,7 @@
     "native-base": "^2.13.8",
     "react": "16.8.3",
     "react-native": "0.59.9",
+    "react-native-confirmation-code-field": "^4.1.0",
     "react-native-country-code-list": "^1.1.2",
     "react-native-firebase": "^5.5.0",
     "react-native-gesture-handler": "1.1.3",

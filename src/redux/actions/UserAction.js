@@ -13,11 +13,47 @@ export const SMSCodeFirebase = (Number, navigation) => async dispatch => {
     .auth()
     .signInWithPhoneNumber(Number)
     .then(confirmResult => {
+      dispatch({
+        type: ActionsTypes.SET_CONFIRM_RESULT,
+        payload: confirmResult
+      });
       console.log(confirmResult);
-      navigation.navigate("Contact");
+      navigation.navigate("ConfirmationCode");
     })
     .catch(error => {
       console.log(error);
+    });
+};
+export const VerifyCodeFirebase = (
+  code,
+  confirmResult,
+  navigation
+) => async dispatch => {
+  console.log(code);
+  confirmResult
+    .confirm(code)
+    .then(user => {
+      dispatch({
+        type: ActionsTypes.VERIFICATION_DONE,
+        payload: ("VERIFICATION DONE", user)
+      });
+      navigation.dispatch(
+        StackActions.reset({
+          index: 0,
+          actions: [
+            NavigationActions.navigate({
+              routeName: "Drawer"
+            })
+          ]
+        })
+      );
+    })
+    .catch(error => {
+      dispatch({
+        type: ActionsTypes.VERIFICATION_EEEOR,
+        payload: error
+      });
+      console.log("VERIFICATION Error", error);
     });
 };
 

@@ -1,11 +1,15 @@
 [
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
-        "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_mk.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_mk.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
@@ -16,6 +20,10 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_fm.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_fm.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_default.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\color-v23\\abc_tint_default.xml"
     },
@@ -24,8 +32,20 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_bh.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_bh.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_multichoice_material.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ax.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ax.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ve.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ve.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -38,6 +58,10 @@
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_mz.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_mz.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
@@ -56,6 +80,10 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_gy.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_gy.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
@@ -72,12 +100,16 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_disabled.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\79799c3bf110d823b4ff1dd258b8fe19\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
     },
     {
-        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ps.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ps.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
@@ -104,8 +136,20 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\79799c3bf110d823b4ff1dd258b8fe19\\res\\drawable-xhdpi-v4\\googleg_disabled_color_18.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_qa.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_qa.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark_focused.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\79799c3bf110d823b4ff1dd258b8fe19\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_bf.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_bf.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_cr.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_cr.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_hint_foreground_material_light.xml.flat",
@@ -124,8 +168,20 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_id.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_id.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_pf.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_pf.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_secondary_text_material_dark.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_tg.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_tg.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -134,6 +190,10 @@
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_btn_colored_text_material.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\color-v23\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_fo.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_fo.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_light.xml.flat",
@@ -148,16 +208,44 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\b6d784b6d0f7d600f48db4c6fd758906\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_dark.xml.flat",
-        "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\color\\abc_primary_text_material_dark.xml"
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_az.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_az.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_cc.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_cc.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_tz.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_tz.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_assets_images_drawer.png.flat",
         "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\assets_images_drawer.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_dark.xml.flat",
+        "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ro.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ro.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_is.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_is.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_je.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_je.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_in.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ai.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ai.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
@@ -168,12 +256,32 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ly.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ly.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_km.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_km.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_er.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_er.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_colored_material.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_vg.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_vg.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\79799c3bf110d823b4ff1dd258b8fe19\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_do.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_do.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
@@ -184,6 +292,10 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_sl.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_sl.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_light_focused.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\79799c3bf110d823b4ff1dd258b8fe19\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
     },
@@ -192,12 +304,20 @@
         "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ks.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ks.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\e05c529a8244c477c319d1ebc1d4f34e\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\e05c529a8244c477c319d1ebc1d4f34e\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_jp.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_jp.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -212,6 +332,14 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ci.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ci.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_bw.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_bw.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
@@ -224,12 +352,20 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_sh.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_sh.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_fi.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_fi.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -244,12 +380,16 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
-        "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\e05c529a8244c477c319d1ebc1d4f34e\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_iq.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_iq.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_fps_view.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\c8ddcff7205f5830025a25a59faae1a1\\res\\layout\\fps_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\e05c529a8244c477c319d1ebc1d4f34e\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_ab_back_material.xml.flat",
@@ -258,6 +398,14 @@
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_assets_images_p7.jpeg.flat",
         "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\assets_images_p7.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_va.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_va.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_bs.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_bs.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -276,6 +424,10 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_mg.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_mg.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
@@ -292,8 +444,16 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_sa.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_sa.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_assets_images_feed5.png.flat",
         "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\assets_images_feed5.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_bl.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_bl.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -312,6 +472,18 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\c8ddcff7205f5830025a25a59faae1a1\\res\\anim\\catalyst_slide_up.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_sn.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_sn.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_dm.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_dm.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_by.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_by.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
@@ -320,8 +492,20 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_gf.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_gf.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_lc.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_lc.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ao.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ao.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -340,8 +524,20 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ae.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ae.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\b6d784b6d0f7d600f48db4c6fd758906\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ws.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ws.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_mm.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_mm.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
@@ -364,12 +560,28 @@
         "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\assets_images_feed4.jpg"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_tk.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_tk.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\79799c3bf110d823b4ff1dd258b8fe19\\res\\drawable-xhdpi-v4\\googleg_standard_color_18.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ck.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ck.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_gw.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_gw.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png.flat",
         "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-xxhdpi\\node_modules_reactnavigationstack_lib_module_views_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_za.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_za.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
@@ -380,24 +592,40 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_mx.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_mx.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_cv.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_cv.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_us.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_us.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
-        "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\layout\\abc_tooltip.xml"
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_default.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
+        "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\layout\\abc_tooltip.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_bb.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_bb.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
@@ -420,6 +648,14 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_yt.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_yt.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_sy.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_sy.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
@@ -432,12 +668,12 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\e05c529a8244c477c319d1ebc1d4f34e\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_edittext.xml.flat",
-        "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\color-v23\\abc_tint_edittext.xml"
-    },
-    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_edittext.xml.flat",
+        "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\color-v23\\abc_tint_edittext.xml"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
@@ -448,20 +684,48 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ht.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ht.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_zw.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_zw.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\e05c529a8244c477c319d1ebc1d4f34e\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ss.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ss.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ee.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ee.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_tv.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_tv.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_uy.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_uy.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\79799c3bf110d823b4ff1dd258b8fe19\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_nu.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_nu.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
@@ -476,12 +740,28 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\layout-watch-v20\\abc_alert_dialog_title_material.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_bo.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_bo.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_im.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_im.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\b6d784b6d0f7d600f48db4c6fd758906\\res\\layout\\notification_template_big_media.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_kw.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_kw.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_voice_search_api_material.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_md.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_md.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_cascading_menu_item_layout.xml.flat",
@@ -500,8 +780,28 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_lu.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_lu.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_gr.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_gr.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ye.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ye.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_pk.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_pk.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_dk.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_dk.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_enter.xml.flat",
@@ -516,12 +816,20 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_kh.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_kh.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_item_layout.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_in.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_in.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
@@ -532,24 +840,60 @@
         "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnavigationstack_lib_module_views_assets_backiconmask.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_mc.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_mc.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_bn.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_bn.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_catalyst_fade_out.xml.flat",
-        "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\c8ddcff7205f5830025a25a59faae1a1\\res\\anim\\catalyst_fade_out.xml"
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_pl.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_pl.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_tc.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_tc.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_radio_material.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_catalyst_fade_out.xml.flat",
+        "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\c8ddcff7205f5830025a25a59faae1a1\\res\\anim\\catalyst_fade_out.xml"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_il.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_il.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_mq.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_mq.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_kg.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_kg.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_py.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_py.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_dj.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_dj.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -576,16 +920,24 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-mdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_dropdown_item_icons_2line.xml.flat",
-        "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\e05c529a8244c477c319d1ebc1d4f34e\\res\\layout-v16\\notification_template_custom_big.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_dropdown_item_icons_2line.xml.flat",
+        "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ru.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ru.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_googleg_standard_color_18.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\79799c3bf110d823b4ff1dd258b8fe19\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_np.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_np.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_divider_material.xml.flat",
@@ -608,8 +960,24 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_mp.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_mp.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_st.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_st.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view_list_item.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_td.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_td.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_bq.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_bq.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
@@ -640,6 +1008,10 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\c8ddcff7205f5830025a25a59faae1a1\\res\\anim\\catalyst_slide_down.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_pw.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_pw.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_checkbox.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
@@ -650,6 +1022,10 @@
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\79799c3bf110d823b4ff1dd258b8fe19\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_me.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_me.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -668,12 +1044,20 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_to.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_to.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_indicator_material.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_gu.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_gu.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_dark.xml.flat",
@@ -684,12 +1068,20 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable\\abc_vector_test.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_fr.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_fr.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_seek_thumb.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\color-v23\\abc_tint_seek_thumb.xml"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_lv.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_lv.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -720,8 +1112,20 @@
         "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\assets_images_p6.jpg"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_gg.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_gg.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_sv.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_sv.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_tm.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_tm.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_assets_images_p4t.png.flat",
@@ -732,8 +1136,20 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\79799c3bf110d823b4ff1dd258b8fe19\\res\\drawable-mdpi-v4\\googleg_standard_color_18.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_bd.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_bd.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_assets_images_feed2.jpg.flat",
         "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\assets_images_feed2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_bz.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_bz.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_pa.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_pa.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_btn_colored_borderless_text_material.xml.flat",
@@ -748,8 +1164,16 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_mn.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_mn.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\79799c3bf110d823b4ff1dd258b8fe19\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_hk.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_hk.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat",
@@ -760,8 +1184,20 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_vi.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_vi.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_nf.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_nf.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\e05c529a8244c477c319d1ebc1d4f34e\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_be.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_be.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
@@ -808,6 +1244,10 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ec.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ec.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\79799c3bf110d823b4ff1dd258b8fe19\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
@@ -818,6 +1258,10 @@
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_io.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_io.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_text_light.xml.flat",
@@ -832,12 +1276,40 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_la.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_la.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_cg.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_cg.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_rs.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_rs.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ng.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ng.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_sj.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_sj.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_pm.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_pm.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_gt.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_gt.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
@@ -860,12 +1332,24 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_tn.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_tn.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_thumb_material.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_edittext.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ch.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ch.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_gh.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_gh.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -878,6 +1362,10 @@
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_am.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_am.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
@@ -896,6 +1384,10 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\anim\\abc_popup_exit.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_mo.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_mo.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
@@ -904,8 +1396,16 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_nr.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_nr.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ki.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ki.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_redbox_item_frame.xml.flat",
@@ -940,20 +1440,40 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_sz.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_sz.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\79799c3bf110d823b4ff1dd258b8fe19\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_kp.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_kp.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_out_bottom.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_sk.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_sk.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_seek_thumb.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\color\\abc_tint_seek_thumb.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_pr.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_pr.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_tw.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_tw.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -968,6 +1488,10 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ug.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ug.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
@@ -978,6 +1502,22 @@
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ie.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ie.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_tj.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_tj.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_pe.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_pe.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_bg.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_bg.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -1016,6 +1556,10 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_cd.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_cd.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
@@ -1028,12 +1572,36 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ni.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ni.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_text_cursor_material.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_kn.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_kn.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_cu.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_cu.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_gi.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_gi.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_sx.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_sx.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_pt.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_pt.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -1046,6 +1614,18 @@
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\e05c529a8244c477c319d1ebc1d4f34e\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_al.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_al.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_aw.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_aw.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_bt.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_bt.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -1064,12 +1644,24 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\e05c529a8244c477c319d1ebc1d4f34e\\res\\drawable\\notification_bg_low.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_hu.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_hu.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_gm.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_gm.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_dev_loading_view.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\c8ddcff7205f5830025a25a59faae1a1\\res\\layout\\dev_loading_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_lk.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_lk.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
@@ -1100,8 +1692,28 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_si.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_si.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_tl.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_tl.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_assets_images_feed.jpg.flat",
         "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\assets_images_feed.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_lb.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_lb.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_bi.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_bi.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_cf.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_cf.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png.flat",
@@ -1136,6 +1748,18 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\79799c3bf110d823b4ff1dd258b8fe19\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_my.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_my.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_vu.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_vu.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_mh.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_mh.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\e05c529a8244c477c319d1ebc1d4f34e\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
     },
@@ -1158,6 +1782,10 @@
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_zm.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_zm.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -1184,8 +1812,16 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\b6d784b6d0f7d600f48db4c6fd758906\\res\\layout\\notification_template_media_custom.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ke.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ke.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_cw.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_cw.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_dialog_material_background.xml.flat",
@@ -1198,6 +1834,10 @@
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_icon_group.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\e05c529a8244c477c319d1ebc1d4f34e\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_jo.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_jo.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -1218,6 +1858,14 @@
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png.flat",
         "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnavigationstack_lib_module_views_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_au.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_au.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ne.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ne.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tooltip_frame_dark.xml.flat",
@@ -1252,12 +1900,32 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_uz.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_uz.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_disabled.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\79799c3bf110d823b4ff1dd258b8fe19\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_br.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_br.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_mw.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_mw.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_mf.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_mf.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_nz.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_nz.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -1266,6 +1934,10 @@
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_track_material.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ir.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ir.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark.xml.flat",
@@ -1288,20 +1960,40 @@
         "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_sg.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_sg.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png.flat",
         "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-xxxhdpi\\node_modules_reactnavigationstack_lib_module_views_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_bm.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_bm.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_assets_images_feed3.jpeg.flat",
         "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\assets_images_feed3.jpeg"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ge.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ge.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23_abc_control_background_material.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-v23\\abc_control_background_material.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_hn.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_hn.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\e05c529a8244c477c319d1ebc1d4f34e\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_kr.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_kr.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
@@ -1316,6 +2008,10 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-mdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_sm.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_sm.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_redbox_view.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\c8ddcff7205f5830025a25a59faae1a1\\res\\layout\\redbox_view.xml"
     },
@@ -1324,8 +2020,20 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-ldrtl-mdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ad.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ad.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_re.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_re.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_assets_images_background2.png.flat",
         "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\assets_images_background2.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_no.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_no.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -1336,8 +2044,20 @@
         "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\assets_images_p1.jpeg"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ml.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ml.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ma.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ma.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_li.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_li.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
@@ -1356,6 +2076,10 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_gq.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_gq.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
     },
@@ -1366,6 +2090,10 @@
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v21_abc_btn_colored_borderless_text_material.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\color-v21\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_sb.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_sb.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -1396,6 +2124,10 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_mr.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_mr.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_custom.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\b6d784b6d0f7d600f48db4c6fd758906\\res\\layout\\notification_template_big_media_custom.xml"
     },
@@ -1414,6 +2146,10 @@
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_eh.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_eh.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_arrow_drop_right_black_24dp.xml.flat",
@@ -1436,12 +2172,20 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_sd.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_sd.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\b6d784b6d0f7d600f48db4c6fd758906\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_cm.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_cm.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media.xml.flat",
@@ -1468,8 +2212,24 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\79799c3bf110d823b4ff1dd258b8fe19\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_sr.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_sr.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ms.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ms.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_om.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_om.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_eg.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_eg.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
@@ -1484,12 +2244,20 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\79799c3bf110d823b4ff1dd258b8fe19\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ar.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ar.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_catalyst_push_up_in.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\c8ddcff7205f5830025a25a59faae1a1\\res\\anim\\catalyst_push_up_in.xml"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_cn.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_cn.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -1502,6 +2270,18 @@
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_color_highlight_material.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_lt.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_lt.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ba.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ba.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_gb.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_gb.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple_overlay_action_mode.xml.flat",
@@ -1522,6 +2302,14 @@
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_mt.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_mt.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_gp.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_gp.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -1548,8 +2336,16 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_rw.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_rw.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_tr.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_tr.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_material.xml.flat",
@@ -1558,6 +2354,14 @@
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ls.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ls.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_dz.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_dz.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_catalyst_push_up_out.xml.flat",
@@ -1576,6 +2380,18 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ga.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ga.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_nc.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_nc.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_sc.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_sc.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_dark.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
@@ -1584,8 +2400,20 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_co.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_co.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_btn_colored_borderless_text_material.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ky.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ky.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_at.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_at.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_switch_track.xml.flat",
@@ -1628,6 +2456,10 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_cl.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_cl.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
@@ -1644,12 +2476,28 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\79799c3bf110d823b4ff1dd258b8fe19\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_af.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_af.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ua.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ua.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_jm.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_jm.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_gd.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_gd.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_small_material.xml.flat",
@@ -1664,6 +2512,10 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_cz.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_cz.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
@@ -1676,8 +2528,16 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_so.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_so.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_tt.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_tt.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
@@ -1692,6 +2552,10 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\color\\switch_thumb_material_light.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_mv.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_mv.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_expanded_menu_layout.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\layout\\abc_expanded_menu_layout.xml"
     },
@@ -1704,12 +2568,28 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ag.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ag.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_nl.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_nl.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\79799c3bf110d823b4ff1dd258b8fe19\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_wf.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_wf.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_es.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_es.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -1724,6 +2604,10 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\e05c529a8244c477c319d1ebc1d4f34e\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ca.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ca.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_clear_material.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable\\abc_ic_clear_material.xml"
     },
@@ -1736,8 +2620,16 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\79799c3bf110d823b4ff1dd258b8fe19\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_fj.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_fj.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_tooltip_exit.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\anim\\abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_hr.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_hr.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -1780,12 +2672,20 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_ph.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_ph.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_cx.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_cx.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -1812,8 +2712,20 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_et.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_et.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_text_dark.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\79799c3bf110d823b4ff1dd258b8fe19\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_de.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_de.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_as.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_as.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
@@ -1828,6 +2740,10 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_bj.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_bj.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_btn_colored_material.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
@@ -1840,8 +2756,16 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_vc.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_vc.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_hint_foreground_material_dark.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_cy.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_cy.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
@@ -1872,8 +2796,28 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\79799c3bf110d823b4ff1dd258b8fe19\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_lr.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_lr.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_pg.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_pg.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_th.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_th.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_se.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_se.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_mu.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_mu.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -1882,6 +2826,10 @@
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_layout.xml.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_na.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_na.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_tick_mark_material.xml.flat",
@@ -1896,8 +2844,20 @@
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_vn.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_vn.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_kz.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_kz.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_it.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_it.png"
     },
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_out.xml.flat",
@@ -1910,5 +2870,13 @@
     {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_fk.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_fk.png"
+    },
+    {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_gn.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_gn.png"
     }
 ]

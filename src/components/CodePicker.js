@@ -19,7 +19,7 @@ class CodePicker extends Component {
     };
 
     this.updateInfo = this.updateInfo.bind(this);
-    this.renderInfo = this.renderInfo.bind(this);
+    // this.renderInfo = this.renderInfo.bind(this);
   }
 
   updateInfo() {
@@ -42,27 +42,27 @@ class CodePicker extends Component {
     }
   };
 
-  renderInfo() {
-    if (this.state.value) {
-      return (
-        <View style={styles.info}>
-          <Text>
-            Is Valid:{" "}
-            <Text style={{ fontWeight: "bold" }}>
-              {this.state.valid.toString()}
-            </Text>
-          </Text>
-          <Text>
-            Type: <Text style={{ fontWeight: "bold" }}>{this.state.type}</Text>
-          </Text>
-          <Text>
-            Value:{" "}
-            <Text style={{ fontWeight: "bold" }}>{this.state.value}</Text>
-          </Text>
-        </View>
-      );
-    }
-  }
+  // renderInfo() {
+  //   if (this.state.value) {
+  //     return (
+  //       <View style={styles.info}>
+  //         <Text>
+  //           Is Valid:{" "}
+  //           <Text style={{ fontWeight: "bold" }}>
+  //             {this.state.valid.toString()}
+  //           </Text>
+  //         </Text>
+  //         <Text>
+  //           Type: <Text style={{ fontWeight: "bold" }}>{this.state.type}</Text>
+  //         </Text>
+  //         <Text>
+  //           Value:{" "}
+  //           <Text style={{ fontWeight: "bold" }}>{this.state.value}</Text>
+  //         </Text>
+  //       </View>
+  //     );
+  //   }
+  // }
 
   render() {
     return (
@@ -139,18 +139,18 @@ class CodePicker extends Component {
             </TouchableOpacity>
           </View>
 
-          <TouchableOpacity onPress={this.updateInfo} style={styles.button}>
+          {/* <TouchableOpacity onPress={this.updateInfo} style={styles.button}>
             <Text>Get Info</Text>
-          </TouchableOpacity>
+          </TouchableOpacity> */}
 
-          {this.renderInfo()}
+          {/* {this.renderInfo()} */}
         </Content>
       </View>
     );
   }
 }
 
-let styles = StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#0b3b54"

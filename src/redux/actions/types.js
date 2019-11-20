@@ -1,2 +1,5 @@
 export const CHECKING = "CHECKING";
 export const SignUp = "SignUp";
+export const SET_CONFIRM_RESULT = "SET_CONFIRM_RESULT";
+export const VERIFICATION_DONE = "VERIFICATION_DONE";
+export const VERIFICATION_EEEOR = "VERIFICATION_EEEOR";

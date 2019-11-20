@@ -12,6 +12,7 @@ import GlobalHeader from "../components/GlobalHeader";
 import Chat from "./Chat";
 import CallHistory from "./CallHistory";
 import CodePicker from "../components/CodePicker";
+import ConfirmationCode from "./ConfirmationCode";
 
 const AppNavigator = createStackNavigator(
   {
@@ -77,6 +78,12 @@ const AppNavigator = createStackNavigator(
     },
     CodePicker: {
       screen: CodePicker,
+      navigationOptions: () => ({
+        header: null
+      })
+    },
+    ConfirmationCode: {
+      screen: ConfirmationCode,
       navigationOptions: () => ({
         header: null
       })

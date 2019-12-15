@@ -1,7 +1,12 @@
 import * as ActionsTypes from "./types";
 import { StackActions, NavigationActions } from "react-navigation";
 import firebase from "react-native-firebase";
+import io from "socket.io-client";
 
+const socket = io("http://192.168.0.106:3000");
+
+// import io from "socket.io-client";
+// const socket = io("http://192.168.0.101:3000");
 // import axios from "axios";
 // import server from "../../constants/server";
 
@@ -37,6 +42,8 @@ export const VerifyCodeFirebase = (
         type: ActionsTypes.VERIFICATION_DONE,
         payload: ("VERIFICATION DONE", user)
       });
+      console.log("user._user.phoneNumber", user._user.phoneNumber);
+      socket.emit("userConected", user._user.phoneNumber);
       navigation.dispatch(
         StackActions.reset({
           index: 0,

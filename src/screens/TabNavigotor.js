@@ -3,8 +3,10 @@ import { Text, View, Image } from "react-native";
 import {
   createAppContainer,
   createMaterialTopTabNavigator
+  // createBottomTabNavigator,
+  // createBottomTabNavigator
 } from "react-navigation";
-// import { createMaterialTopTabNavigator } from "react-navigation-tabs";
+// import { createBottomTabNavigator } from "react-navigation-tabs";
 import FontAwesome5 from "react-native-vector-icons/FontAwesome5";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import Entypo from "react-native-vector-icons/Entypo";
@@ -18,7 +20,8 @@ const TabNavigator = createMaterialTopTabNavigator(
     Home: {
       screen: NewsFeed,
 
-      navigationOptions: navigation => ({
+      navigationOptions: () => ({
+        header: "hello",
         tabBarIcon: () => (
           <MaterialCommunityIcons
             style={{ alignSelf: "center" }}
@@ -26,18 +29,16 @@ const TabNavigator = createMaterialTopTabNavigator(
             color="white"
             name="newspaper"
           />
-          //<Image style={{width:30, height:30, resizeMode:'contain'}} source={require("../../assets/images/reader.png")} />
         )
       })
     },
+
     Settings: {
       screen: Inbox,
 
-      navigationOptions: navigation => ({
+      navigationOptions: () => ({
         tabBarIcon: () => (
           <Entypo size={27} color="white" name="chat" style={{ width: 30 }} />
-
-          //<Image style={{width:30, height:30, resizeMode:'contain'}} source={require("../../assets/images/reader.png")} />
         )
       })
     },
@@ -52,47 +53,23 @@ const TabNavigator = createMaterialTopTabNavigator(
             color="white"
             name="phone-volume"
           />
-          //<Image style={{width:30, height:30, resizeMode:'contain'}} source={require("../../assets/images/reader.png")} />
         )
       })
     }
   },
   {
-    navigationOptions: {
-      Chat: {
-        screen: Chat
-      },
-      defaultNavigationOptions: {
-        Chat: {
-          screen: Chat
-        }
-      }
-    },
-
     tabBarOptions: {
       showIcon: true,
       showLabel: false,
-      // tabBarLabel:false,
-      // activeTintColor: "black",
-      //activeTintColor: 'orange',
-      // inactiveTintColor: 'blue',
-      // inactiveBackgroundColor: '#EFEFEF',
-      activeTintColor: "orange",
-      inactiveTintColor: "red",
 
       style: {
         backgroundColor: "#154a63"
-      },
-      iconStyle: {
-        activeTintColor: "orange",
-        inactiveTintColor: "red"
-      },
-      tabStyle: {
-        // backgroundColor: "red",
-        // width: 100
       }
     }
+  },
+  {
+    initialRouteName: "Inbox"
   }
 );
 
-export default createAppContainer(TabNavigator, Chat);
+export default createAppContainer(TabNavigator);

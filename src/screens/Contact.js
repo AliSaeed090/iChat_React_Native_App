@@ -4,11 +4,14 @@ import GlobaHeader from "../components/GlobalHeader";
 import { Container } from "native-base";
 import GlobalHeader from "../components/GlobalHeader";
 import TabNavigotor from "./TabNavigotor";
+import { createAppContainer } from "react-navigation";
 import {
   StackActions,
   NavigationActions,
   DrawerActions
 } from "react-navigation";
+
+const AppIndex = createAppContainer(TabNavigotor);
 export default class Contact extends Component {
   func = () => {
     () => this.props.navigation.dispatch(DrawerActions.toggleDrawer());
@@ -18,7 +21,7 @@ export default class Contact extends Component {
       <Container>
         {/* <TouchableOpacity
           onPress={() =>
-           
+            this.props.navigation.dispatch(DrawerActions.toggleDrawer())
           }
           style={{ width: 100, height: 100, backgroundColor: "red" }}
         ></TouchableOpacity> */}
@@ -26,27 +29,14 @@ export default class Contact extends Component {
           Drawer={() =>
             this.props.navigation.dispatch(DrawerActions.toggleDrawer())
           }
-          //         Points={true}
-          //        Avator={true}
-          //        leftHeading={"Exchange"}
-          //       twoWords={1}
           SearchIcon={true}
-          //       Pencil={true}
-          //       AvatorSetting={true}
-          //       bunch={true}
-          //       HeartAndSetting={true}
-          //       RightAvatorAccount={true}
-          //   searchAndClock={true}
-          //       HeadingText= " Payment "
-          //        avatorArrow={true}
-          //         Points2={true}
-          //         lefHeading="Points"
           Points="sss"
           leftArrow={true}
           elevation={1}
           backgroundColor={"#154a63"}
         />
         <TabNavigotor />
+        {/* <AppIndex /> */}
       </Container>
     );
   }

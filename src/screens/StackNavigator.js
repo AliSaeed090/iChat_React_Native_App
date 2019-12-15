@@ -7,6 +7,7 @@ import SignUp from "./SignUp";
 import SignIn from "./SignIn";
 import Drawer from "./Drawer";
 import NewsFeed from "./NewsFeed";
+import TabNavigotor from "./TabNavigotor";
 import Home from "./Home";
 import GlobalHeader from "../components/GlobalHeader";
 import Chat from "./Chat";
@@ -84,6 +85,12 @@ const AppNavigator = createStackNavigator(
     },
     ConfirmationCode: {
       screen: ConfirmationCode,
+      navigationOptions: () => ({
+        header: null
+      })
+    },
+    TabNavigotor: {
+      screen: TabNavigotor,
       navigationOptions: () => ({
         header: null
       })

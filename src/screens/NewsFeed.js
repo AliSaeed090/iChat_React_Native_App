@@ -3,6 +3,10 @@ import { Text, View, Image } from "react-native";
 import { Container, Content } from "native-base";
 import AntDesign from "react-native-vector-icons/AntDesign";
 import EvilIcons from "react-native-vector-icons/EvilIcons";
+import io from "socket.io-client";
+
+const socket = io("http://192.168.0.101:3000");
+
 export default class NewsFeed extends Component {
   constructor() {
     super();
@@ -78,6 +82,10 @@ export default class NewsFeed extends Component {
       ]
     };
   }
+  componentDidMount() {
+    socket.emit("new-user", "12345678");
+  }
+
   render() {
     return (
       <Container>

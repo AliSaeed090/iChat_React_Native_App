@@ -29,7 +29,7 @@ import {
   DrawerActions
 } from "react-navigation";
 
-import DrawerNew from "../screens/DrawerNew";
+// import DrawerNew from "../screens/DrawerNew";
 export default class HeaderExample extends Component {
   constructor() {
     super();

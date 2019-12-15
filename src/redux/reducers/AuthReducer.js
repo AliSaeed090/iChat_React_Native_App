@@ -7,7 +7,9 @@ const initialState = {
   cellNumber: "",
   confirmResult: null,
   err: "",
-  isErr: false
+  isErr: false,
+  user: null,
+  cellNo: null
 };
 
 export default function(state = initialState, action) {
@@ -20,15 +22,21 @@ export default function(state = initialState, action) {
       };
     case ActionsTypes.SET_CONFIRM_RESULT:
       console.log("SET_CONFIRM_RESULT ACTION WORKED", action.payload);
+      // console.log("phoneNo.", action.payload.auth.user.phoneNumber);
+
       return {
         ...state,
         confirmResult: action.payload
       };
     case ActionsTypes.VERIFICATION_DONE:
-      console.log("SET_CONFIRM_RESULT ACTION WORKED", action.payload);
+      console.log(
+        "VERIFICATION_DONE ACTION WORKED",
+        action.payload._user.phoneNumber
+      );
+      // console.log("phoneNo.", this.state.cellNumber);
       return {
-        ...state
-        // confirmResult: action.payload
+        ...state,
+        cellNo: action.payload._user.phoneNumber
       };
 
     case ActionsTypes.VERIFICATION_EEEOR:

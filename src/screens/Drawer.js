@@ -18,6 +18,7 @@ import TermAndCond from "./TermAndCond";
 import GlobalHeader from "../components/GlobalHeader";
 import ContactUs from "./ContactUs";
 import PrivacyPolicy from "./PrivacyPolicy";
+import TabNavigotor from "./TabNavigotor";
 
 const WIDTH = Dimensions.get("window").width;
 const DrawerConfig = {
@@ -34,10 +35,10 @@ const DrawerConfig = {
 export default createDrawerNavigator(
   {
     TermsService: {
-      screen: Contact
+      screen: TabNavigotor
     },
     Timing: {
-      screen: GlobalHeader
+      screen: TabNavigotor
     },
 
     TermAndCond: {

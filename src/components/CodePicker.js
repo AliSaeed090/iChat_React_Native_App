@@ -7,6 +7,9 @@ import { Content } from "native-base";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import * as UserAction from "../redux/actions/UserAction";
+import io from "socket.io-client";
+
+const socket = io("http://192.168.0.103:3000");
 
 class CodePicker extends Component {
   constructor() {
@@ -41,6 +44,10 @@ class CodePicker extends Component {
       this.props.UserAction.SMSCodeFirebase(data.value, this.props.navigation);
     }
   };
+  componentWillMount() {
+    // this.props.UserAction.checkAsync(this.props.navigation);
+    socket.emit("userConected", this.props.cellNo);
+  }
 
   // renderInfo() {
   //   if (this.state.value) {
@@ -185,7 +192,8 @@ const styles = StyleSheet.create({
 });
 mapStateToProps = state => {
   return {
-    email: state.AuthReducer.email
+    email: state.AuthReducer.email,
+    cellNo: state.AuthReducer.cellNo
   };
 };
 mapActionsToProps = dispatch => ({

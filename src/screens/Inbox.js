@@ -7,98 +7,102 @@ import * as UserAction from "../redux/actions/UserAction";
 import io from "socket.io-client";
 import Chat from "./Chat";
 
-// const navigation = this.props.navigation.navigate();
-const socket = io("http://192.168.0.106:3000");
+import server from "../components/server";
+
+const socket = io(server);
 
 class Inbox extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       // navigation: this.props.navigation,
       props: "",
       // onLine: [1111111, 2222222, 33333, 444444],
       onLine: [],
 
-      arr: [
-        {
-          img: require("../../assets/images/p.png"),
-          name: "James Atique",
-          msg: "Good Morning! Lorem Ipsum is simply dummy text",
-          time: "11:00"
-        }
-        // {
-        //   img: require("../../assets/images/p1.jpeg"),
-        //   name: "Fahad Nazir",
-        //   msg: "Good Morning! Lorem Ipsum is simply dummy text",
-        //   time: "11:00"
-        // },
-        // {
-        //   img: require("../../assets/images/p.png"),
-        //   name: "Ali Farooq",
-        //   msg: "Good Morning! Lorem Ipsum is simply dummy text",
-        //   time: "11:00"
-        // },
-        // {
-        //   img: require("../../assets/images/p4t.png"),
-        //   name: "Karwan Topi",
-        //   msg: "Good Morning! Lorem Ipsum is simply dummy text",
-        //   time: "11:00"
-        // },
-        // {
-        //   img: require("../../assets/images/p4t.png"),
-        //   name: "Atique Ahmed",
-        //   msg: "Good Morning! Lorem Ipsum is simply dummy text",
-        //   time: "11:00"
-        // },
-        // {
-        //   img: require("../../assets/images/p4t.png"),
-        //   name: "Asher Baig",
-        //   msg: "Good Morning! Lorem Ipsum is simply dummy text",
-        //   time: "11:00"
-        // },
-        // {
-        //   img: require("../../assets/images/p.png"),
-        //   name: "Hammad Azeem",
-        //   msg: "Good Morning! Lorem Ipsum is simply dummy text",
-        //   time: "11:00"
-        // },
-        // {
-        //   img: require("../../assets/images/p4t.png"),
-        //   name: "Ali Saeed",
-        //   msg: "Good Morning! Lorem Ipsum is simply dummy text",
-        //   time: "11:00"
-        // },
-        // {
-        //   img: require("../../assets/images/p.png"),
-        //   name: "Asher",
-        //   msg: "Good Morning! Lorem Ipsum is simply dummy text",
-        //   time: "11:00"
-        // }
-      ]
+      arr: []
     };
   }
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.newMessage) {
+      this.addChatRoom(nextProps.newMessage);
+    }
+  }
+
+  addChatRoom = data => {
+    let newChatRoom = this.state.arr;
+
+    console.log("data.user._id", data.user._id);
+
+    let success = newChatRoom.map((data, i) => data.name);
+
+    var i = success.indexOf(data.user._id);
+
+    console.log("index", i);
+
+    if (success.includes(data.user._id)) {
+      newChatRoom[i].msg.push(data);
+
+      this.setState({ arr: newChatRoom });
+    } else {
+      let newData = {
+        name: data.user._id,
+        msg: [data],
+        time: data.createdAt
+      };
+
+      newChatRoom.push(newData);
+      this.setState({ arr: newChatRoom });
+    }
+
+    console.log("this.state.arr", this.state.arr);
+  };
 
   componentDidMount() {
-    console.log("nextProps", this.state.props);
+    console.log("DidMountnextProps", this.props.newMessage);
+    // socket.emit("userConected", this.props.cellNo);
+
+    // socket.on("user_connected", user => {
+    //   console.log("userInbox", user);
+    //   for (i = 0; i <= user.length; i++) {
+    //     let onLine = [...this.state.onLine];
+    //     if (user[i] === onLine[i]) {
+    //       let value = this.props.cellNo;
+    //       onLine = onLine.filter(item => item !== value);
+
+    //       this.setState({ onLine });
+    //     } else {
+    //       onLine.push(user[i]);
+    //       let value = this.props.cellNo;
+    //       onLine = onLine.filter(item => item !== value);
+    //       this.setState({ onLine });
+    //     }
+    //   }
+    //   // let onLine = [...this.state.onLine];
+    //   // onLine.push(user);
+    // });
+    // socket.emit("userConected", this.props.cellNo);
 
     socket.on("user_connected", user => {
-      for (i = 0; i <= user.length; i++) {
-        let onLine = [...this.state.onLine];
-        if (user[i] === onLine[i]) {
-          let value = this.props.cellNo;
-          onLine = onLine.filter(item => item !== value);
-
-          this.setState({ onLine });
-        } else {
-          onLine.push(user[i]);
-          let value = this.props.cellNo;
-          onLine = onLine.filter(item => item !== value);
-          this.setState({ onLine });
-        }
+      let onLine = [...this.state.onLine];
+      if (user == this.props.cellNo || onLine.includes(user)) {
+        this.setState({ onLine });
+      } else {
+        onLine.push(user);
+        this.setState({ onLine });
       }
-      // let onLine = [...this.state.onLine];
-      // onLine.push(user);
     });
+    socket.on("mess", (obj, receiver) => {
+      // let messages = this.state.messages;
+      // messages.push(obj);
+      console.log("Messobjaaaaa", obj);
+    });
+
+    //   // this.setState(previousState => ({
+    //   //   messages: GiftedChat.append(previousState.messages, obj),
+    //   //   receiver: receiver
+    //   // }));
+    // });
   }
 
   render() {
@@ -131,11 +135,13 @@ class Inbox extends Component {
         </View>
         <Content>
           {this.state.arr.map((data, index) => {
+            let lastIndex = data.msg.length - 1;
             return (
               <TouchableOpacity
                 onPress={() =>
                   this.props.navigation.navigate("Chat", {
-                    receiver: this.state.onLine
+                    receiver: data.name,
+                    message: data.msg.reverse()
                   })
                 }
                 key={index}
@@ -157,10 +163,18 @@ class Inbox extends Component {
                   }}
                 >
                   <View>
-                    <Image
+                    <View
+                      style={{
+                        width: 60,
+                        height: 60,
+                        backgroundColor: "red",
+                        borderRadius: 100
+                      }}
+                    ></View>
+                    {/* <Image
                       style={{ width: 60, height: 60, resizeMode: "contain" }}
                       source={data.img}
-                    />
+                    /> */}
                   </View>
                   <View style={{ width: "65%", marginLeft: 10 }}>
                     <Text
@@ -172,7 +186,9 @@ class Inbox extends Component {
                     >
                       {data.name}
                     </Text>
-                    <Text style={{ fontSize: 15 }}>{data.msg}</Text>
+                    <Text style={{ fontSize: 15 }}>
+                      {data.msg[lastIndex].text}
+                    </Text>
                   </View>
                   <Text
                     style={{
@@ -200,7 +216,8 @@ mapStateToProps = state => {
     isErr: state.AuthReducer.isErr,
     err: state.AuthReducer.err,
     // cellNumber: state.AuthReducer.cellNumber,
-    cellNo: state.AuthReducer.cellNo
+    cellNo: state.AuthReducer.cellNo,
+    newMessage: state.AuthReducer.message
   };
 };
 mapActionsToProps = dispatch => ({

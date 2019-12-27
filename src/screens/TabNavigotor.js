@@ -15,61 +15,65 @@ import NewsFeed from "./NewsFeed";
 import CallHistory from "./CallHistory";
 import Chat from "./Chat";
 
-const TabNavigator = createMaterialTopTabNavigator(
-  {
-    Home: {
-      screen: NewsFeed,
+// createStackNavigator({
+export default TabNavigator = createAppContainer(
+  createMaterialTopTabNavigator(
+    {
+      Home: {
+        screen: NewsFeed,
 
-      navigationOptions: () => ({
-        header: "hello",
-        tabBarIcon: () => (
-          <MaterialCommunityIcons
-            style={{ alignSelf: "center" }}
-            size={25}
-            color="white"
-            name="newspaper"
-          />
-        )
-      })
-    },
+        navigationOptions: () => ({
+          header: "hello",
+          tabBarIcon: () => (
+            <MaterialCommunityIcons
+              style={{ alignSelf: "center" }}
+              size={25}
+              color="white"
+              name="newspaper"
+            />
+          )
+        })
+      },
 
-    Settings: {
-      screen: Inbox,
+      Settings: {
+        screen: Inbox,
 
-      navigationOptions: () => ({
-        tabBarIcon: () => (
-          <Entypo size={27} color="white" name="chat" style={{ width: 30 }} />
-        )
-      })
-    },
-    Ilma: {
-      screen: CallHistory,
+        navigationOptions: () => ({
+          tabBarIcon: () => (
+            <Entypo size={27} color="white" name="chat" style={{ width: 30 }} />
+          )
+        })
+      },
+      Ilma: {
+        screen: CallHistory,
 
-      navigationOptions: () => ({
-        tabBarIcon: () => (
-          <FontAwesome5
-            style={{ alignSelf: "center" }}
-            size={25}
-            color="white"
-            name="phone-volume"
-          />
-        )
-      })
-    }
-  },
-  {
-    tabBarOptions: {
-      showIcon: true,
-      showLabel: false,
-
-      style: {
-        backgroundColor: "#154a63"
+        navigationOptions: () => ({
+          tabBarIcon: () => (
+            <FontAwesome5
+              style={{ alignSelf: "center" }}
+              size={25}
+              color="white"
+              name="phone-volume"
+            />
+          )
+        })
       }
+    },
+
+    {
+      tabBarOptions: {
+        showIcon: true,
+        showLabel: false,
+
+        style: {
+          backgroundColor: "#154a63"
+        }
+      }
+    },
+    {
+      initialRouteName: "Inbox"
     }
-  },
-  {
-    initialRouteName: "Inbox"
-  }
+  )
 );
 
-export default createAppContainer(TabNavigator);
+// createAppContainer(TabNavigator);

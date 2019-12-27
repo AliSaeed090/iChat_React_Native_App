@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\b6d784b6d0f7d600f48db4c6fd758906\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\a986a0a070bdb5d248387a9bcb0e5565\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\32315fd6ed239e4f35c2b44191df0ee8\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\f6231a55188bb848ae35878882b11277\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

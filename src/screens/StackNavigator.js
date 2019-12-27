@@ -14,6 +14,8 @@ import Chat from "./Chat";
 import CallHistory from "./CallHistory";
 import CodePicker from "../components/CodePicker";
 import ConfirmationCode from "./ConfirmationCode";
+import AfterSplash from "./Splash";
+import WebRtc from "./WebRtc";
 
 const AppNavigator = createStackNavigator(
   {
@@ -94,11 +96,29 @@ const AppNavigator = createStackNavigator(
       navigationOptions: () => ({
         header: null
       })
+    },
+    AfterSplash: {
+      screen: AfterSplash,
+      navigationOptions: () => ({
+        header: null
+      })
+    },
+    WebRtc: {
+      screen: WebRtc,
+      navigationOptions: () => ({
+        header: null
+      })
+    },
+    TabNavigator: {
+      screen: TabNavigator,
+      navigationOptions: () => ({
+        header: null
+      })
     }
   },
 
   {
-    initialRouteName: "CodePicker"
+    initialRouteName: "Contact"
   }
 );
 

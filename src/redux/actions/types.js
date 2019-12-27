@@ -3,3 +3,4 @@ export const SignUp = "SignUp";
 export const SET_CONFIRM_RESULT = "SET_CONFIRM_RESULT";
 export const VERIFICATION_DONE = "VERIFICATION_DONE";
 export const VERIFICATION_EEEOR = "VERIFICATION_EEEOR";
+export const MESSAGE_RECEIVE = "MESSAGE_RECEIVE";

@@ -9,7 +9,8 @@ const initialState = {
   err: "",
   isErr: false,
   user: null,
-  cellNo: null
+  cellNo: null,
+  message: null
 };
 
 export default function(state = initialState, action) {
@@ -45,6 +46,12 @@ export default function(state = initialState, action) {
         ...state,
         isErr: true,
         err: action.payload
+      };
+    case ActionsTypes.MESSAGE_RECEIVE:
+      console.log("MESSAGE_RECEIVE ACTION WORKED", action.payload);
+      return {
+        ...state,
+        message: action.payload
       };
     default:
       return state;

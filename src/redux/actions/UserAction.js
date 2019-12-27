@@ -2,15 +2,16 @@ import * as ActionsTypes from "./types";
 import { StackActions, NavigationActions } from "react-navigation";
 import firebase from "react-native-firebase";
 import io from "socket.io-client";
+import server from "../../components/server";
 
-const socket = io("http://192.168.0.106:3000");
+const socket = io(server);
 
 // import io from "socket.io-client";
 // const socket = io("http://192.168.0.101:3000");
 // import axios from "axios";
 // import server from "../../constants/server";
 
-// import AsyncStorage from "@react-native-community/async-storage";
+import AsyncStorage from "@react-native-community/async-storage";
 
 export const SMSCodeFirebase = (Number, navigation) => async dispatch => {
   console.log(Number);
@@ -42,8 +43,21 @@ export const VerifyCodeFirebase = (
         type: ActionsTypes.VERIFICATION_DONE,
         payload: ("VERIFICATION DONE", user)
       });
-      console.log("user._user.phoneNumber", user._user.phoneNumber);
+
       socket.emit("userConected", user._user.phoneNumber);
+
+      socket.on("mess", (obj, receiver) => {
+        // messages.push(obj);
+        console.log("MessobjAction", obj, receiver);
+        dispatch({
+          type: ActionsTypes.MESSAGE_RECEIVE,
+          payload: obj
+        });
+      });
+      AsyncStorage.setItem(
+        "user",
+        JSON.stringify({ ...user, user })
+      ).then(asyncResponse => {});
       navigation.dispatch(
         StackActions.reset({
           index: 0,
@@ -64,45 +78,20 @@ export const VerifyCodeFirebase = (
     });
 };
 
-// export const SignUp = (navigation, userData) => async (dispatch) => {
-//   console.log(userData);
-//   //   dispatch({
-//   //     type: ActionsTypes.START_LOADING,
-//   //     payload: "Getting Room Details"
-//   //   });
+export const ListenMessage = obj => async dispatch => {
+  dispatch({
+    type: ActionsTypes.MESSAGE_RECEIVE,
+    payload: obj
+  });
+};
 
-//   axios
-
-//     .post(`${server}users/signup`, userData)
-
-//     .then((res) => {
-//       console.log("Api Res", res);
-//       if (res.status === 200) {
-//         alert(res.data.status);
-
-//         dispatch({
-//           type: ActionsTypes.SET_USERDATA,
-//           payload: { ...res.data.data, password: userdata.password }
-//         });
-
-//         // dispatch({
-//         //   // type: ActionsTypes.NOT_LOADING
-//         // });
-//       }
-//     })
-
-//     .catch((error) => {
-//       console.log("ApiError", error);
-//       // dispatch({
-//       //   //  type: ActionsTypes.NOT_LOADING
-//       // });
-
-//       if (error.response.status === 400)
-//         alert(error.response.data.data.message);
-//       else if (error.response.status === 500) alert("User Already Exists");
-//       else alert(error.response.data.data.message);
-//     });
-// };
+export const sendMessage = giftedChatMessages => async dispatch => {
+  socket.emit("message", giftedChatMessages);
+  // dispatch({
+  //   type: ActionsTypes.MESSAGE_RECEIVE,
+  //   payload: obj
+  // });
+};
 
 // export const signIn = (navigation, userdata) => async (dispatch) => {
 //   dispatch({
@@ -150,48 +139,32 @@ export const VerifyCodeFirebase = (
 //     });
 // };
 
-// export const checkAsync = (navigation) => async (dispatch) => {
-//   dispatch({
-//     type: ActionsTypes.START_LOADING,
-//     payload: "Checking Auth State"
-//   });
-//   AsyncStorage.getItem("user").then((user) => {
-//     var user = JSON.parse(user);
-//     console.log(user);
-//     axios
-//       .post(`${server}users/login`, {
-//         email: user.email,
-//         password: user.password
-//       })
-//       .then((res) => {
-//         if (res.data.code === 200) {
-//           dispatch({
-//             type: ActionsTypes.CHECK_ASYNC,
-//             payload: user
-//           });
-//           navigation.dispatch(
-//             StackActions.reset({
-//               index: 0,
-//               actions: [NavigationActions.navigate({ routeName: "Dashboard" })]
-//             })
-//           );
-//           dispatch({
-//             type: ActionsTypes.NOT_LOADING
-//           });
-//         }
-//       })
+export const checkAsync = navigation => async dispatch => {
+  AsyncStorage.getItem("user")
+    .then(user => {
+      var user = JSON.parse(user);
+      if (user) {
+        navigation.dispatch(
+          StackActions.reset({
+            index: 0,
+            actions: [NavigationActions.navigate({ routeName: "Drawer" })]
+          })
+        );
+      }
+      //  else {
+      //   navigation.dispatch(
+      //     StackActions.reset({
+      //       index: 0,
+      //       actions: [NavigationActions.navigate({ routeName: "CodePicker" })]
+      //     })
+      //   );
+      // }
+    })
 
-//       .catch((error) => {
-//         dispatch({
-//           type: ActionsTypes.NOT_LOADING
-//         });
-
-//         if (error.response.status === 401) alert("Unauthorized User");
-//         else alert("Some Problem Occured");
-//       });
-//   });
-// };
-
+    .catch(error => {
+      alert("Some Problem Occured", error);
+    });
+};
 // export const getNews = (navigation, userdata) => async (dispatch) => {
 //   dispatch({
 //     type: ActionsTypes.START_LOADING,

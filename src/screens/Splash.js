@@ -1,15 +1,5 @@
 import React, { Component } from "react";
-import {
-  StyleSheet,
-  Text,
-  View,
-  Image,
-  TouchableOpacity,
-  ImageBackground,
-  Animated,
-  Easing
-} from "react-native";
-import { Button } from "native-base";
+import { StyleSheet, View, Animated } from "react-native";
 
 export default class AfterSplash extends Component {
   constructor(props) {
@@ -18,6 +8,8 @@ export default class AfterSplash extends Component {
   }
   componentWillMount() {
     this.spring();
+
+    // this.props.UserAction.checkAsync(this.props.navigation);
   }
   spring() {
     Animated.spring(this.springValue, {

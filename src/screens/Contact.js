@@ -25,16 +25,18 @@ export default class Contact extends Component {
           }
           style={{ width: 100, height: 100, backgroundColor: "red" }}
         ></TouchableOpacity> */}
-        <GlobalHeader
+        {/* <GlobalHeader
           Drawer={() =>
             this.props.navigation.dispatch(DrawerActions.toggleDrawer())
           }
-          SearchIcon={true}
-          Points="sss"
+          // SearchIcon={true}
+          // Points="sss"
           leftArrow={true}
-          elevation={1}
+          // elevation={1}
           backgroundColor={"#154a63"}
-        />
+          navigation={this.props.navigation}
+        /> */}
+
         <TabNavigotor />
         {/* <AppIndex /> */}
       </Container>

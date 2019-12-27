@@ -19,8 +19,10 @@ import {
   Title
 } from "native-base";
 import Feather from "react-native-vector-icons/Feather";
-import Octicons from "react-native-vector-icons/Octicons";
-import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
+import Ionicons from "react-native-vector-icons/Ionicons";
+import FontAwesome from "react-native-vector-icons/FontAwesome";
+import MaterialIcons from "react-native-vector-icons/MaterialIcons";
+
 // import { DrawerActions } from "react-navigation-drawer";
 // import { withNavigation, DrawerActions } from "react-navigation";
 import {
@@ -77,18 +79,40 @@ export default class HeaderExample extends Component {
           style={{
             flex: 1,
             height: "100%",
-            justifyContent: "center",
-            paddingLeft: 2
+            // justifyContent: "center",
+            paddingLeft: 2,
+            flexDirection: "row",
+            alignItems: "center"
           }}
         >
           {this.props.leftArrow == true ? (
             <TouchableOpacity onPress={this.props.Drawer}>
               <Icon name="menu" style={{ color: "white" }} />
             </TouchableOpacity>
-          ) : this.props.leftHeading !== "" ? (
+          ) : this.props.leftArrow1 !== "" ? (
+            <TouchableOpacity onPress={() => this.props.navigation.goBack()}>
+              <Ionicons name="ios-arrow-round-back" color={"white"} size={40} />
+            </TouchableOpacity>
+          ) : null}
+
+          {this.props.userImage == true ? (
+            <Image
+              style={{ width: 30, height: 30, borderRadius: 100 }}
+              source={{ uri: this.props.imageURL }}
+            />
+          ) : (
+            <FontAwesome
+              name="user-circle"
+              color={"white"}
+              size={40}
+              style={{ marginLeft: 20 }}
+            />
+          )}
+
+          {this.props.leftHeading !== "" ? (
             <Text
               numberOfLines={1}
-              style={{ fontWeight: "bold", color: "black", fontSize: 20 }}
+              style={{ color: "white", fontSize: 17, marginLeft: 15 }}
             >
               {this.props.leftHeading}
             </Text>
@@ -118,14 +142,20 @@ export default class HeaderExample extends Component {
         >
           {this.props.searchIcon == true ? (
             <View
-              style={{
-                width: "20%",
-                borderWidth: 0,
-                justifyContent: "center",
-                alignItems: "center"
-              }}
+              style={{ flexDirection: "row", width: "30%", marginRight: 20 }}
             >
-              <Feather name="search" size={23} color="white" />
+              <TouchableOpacity
+                onPress={this.props.callFunc}
+                style={{ width: 40, marginLeft: -40 }}
+              >
+                <Feather name="phone-call" size={25} color="white" />
+              </TouchableOpacity>
+              <TouchableOpacity
+                onPress={() => this.props.navigation.navigate("Inbox")}
+                style={{ width: 30, marginLeft: 10 }}
+              >
+                <MaterialIcons name="video-call" size={25} color="white" />
+              </TouchableOpacity>
             </View>
           ) : null}
         </Right>

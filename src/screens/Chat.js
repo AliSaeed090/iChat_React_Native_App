@@ -7,154 +7,118 @@ import { bindActionCreators } from "redux";
 import * as UserAction from "../redux/actions/UserAction";
 import io from "socket.io-client";
 import uuid4 from "uuid4";
+import Storage from "react-native-storage";
+import AsyncStorage from "@react-native-community/async-storage";
+import { NavigationEvents } from "react-navigation";
+import GlobalHeader from "../components/GlobalHeader";
 
 // const socket = io("http://192.168.0.101:3100");
 // import axios from "axios";
 // const server = "http://localhost:3100";
-const socket = io("http://192.168.0.106:3000");
+// const socket = io("http://192.168.0.106:3000");
+const storage = new Storage({
+  size: 1000,
+
+  // Use AsyncStorage for RN apps, or window.localStorage for web apps.
+  // If storageBackend is not set, data will be lost after reload.
+  storageBackend: AsyncStorage, // for web: window.localStorage
+
+  // expire time, default: 1 day (1000 * 3600 * 24 milliseconds).
+  // can be null, which means never expire.
+  defaultExpires: 1000 * 3600 * 24,
+
+  // cache data in the memory. default is true.
+  enableCache: true
+
+  // if data was not found in storage or expired data was found,
+  // the corresponding sync method will be invoked returning
+  // the latest data.
+});
 
 class Chat extends Component {
-  state = {
-    messages: [],
-    friends: [],
-    receiver: ""
-    // messages2: []
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      messages: [],
+      friends: [],
+      receiver: ""
+    };
+  }
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.newMessage) {
+      this.setMssages(nextProps.newMessage);
+    }
+  }
+
+  saveLocalStorage = () => {
+    storage.save({
+      key: this.props.cellNo + this.receiver,
+      data: this.state.messages,
+      expires: null
+    });
   };
 
-  // getMsgFromServer = () => {
-  //   axios
-  //     .get("http://192.168.0.106:3100/messages")
-  //     .then(response => {
-  //       if (response.status == 200) {
-  //         console.log("llll");
-  //         this.setState({ messages: response.data });
+  getLocalData = () => {
+    storage
+      .load({
+        key: this.props.cellNo + this.receiver
+      })
+      .then(res => {
+        console.log("ret", res[0]);
+        this.setState({
+          messages: res
+        });
+      })
+      .catch(err => {
+        // any exception including data not found
+        // goes to catch()
+        console.warn(err.message);
+      });
+    this.setMssages(this.messages);
+  };
 
-  //         // let msg = this.state.messages;
-
-  //         // msg = response.data;
-  //         // this.state.messages = msg;
-  //         // this.forceUpdate();
-  //       }
-  //       console.log("getReq", response);
-  //     })
-  //     .catch(function(error) {
-  //       console.log("error", error);
-  //     });
-  // };
+  // componentWillMount() {
+  //   this.getLocalData();
+  // }
 
   componentDidMount() {
-    socket.emit("userConected", this.props.cellNo);
+    // this.receiver = this.props.navigation.state.params.receiver;
+    // this.messages = this.props.navigation.state.params.message;
 
-    socket.on("user_connected", user => {
-      let friends = [...this.state.friends];
-      friends.push([user]);
-      this.setState({ friends });
-    });
-    socket.on("mess", (obj, receiver) => {
-      let messages = this.state.messages;
-      // messages.push(obj);
-      console.log("Messobj");
-      this.setState(previousState => ({
-        messages: GiftedChat.append(previousState.messages, obj),
-        receiver: receiver
-      }));
-    });
-
-    // console.log("usrProps", this.props.cellNo);
-
-    (this.receiver = this.props.navigation.state.params.receiver),
-      console.log("this.receiver", this.receiver);
+    // storage.remove({
+    //   key: this.props.cellNo + this.receiver
+    // });
+    // if (this.messages) {
+    //   this.setMssages(this.messages);
+    // }
+    // this.getLocalData();
 
     if (this.receiver) {
       this.setReceiver(this.receiver);
     }
-
-    // {this.props.navigation.state.params.Name}
-
-    // let Phone = this.props.user;
-    // console.log("Phone", Phone._user.phoneNumber);
-
-    // Backend.loadMessages((message) => {
-    //   this.setState((previousState) => {
-    //     return {
-    //       messages: GiftedChat.append(previousState.messages, message),
-    //     };
-    //   });
-    // });
-
-    // loadMessages(callback) {
-    //   this.messagesRef = firebase.database().ref('messages');
-    //   this.messagesRef.off();
-    //   const onReceive = (data) => {
-    //     const message = data.val();
-    //     callback({
-    //       _id: data.key,
-    //       text: message.text,
-    //       createdAt: new Date(message.createdAt),
-    //       user: {
-    //         _id: message.user._id,
-    //         name: message.user.name,
-    //       },
-    //     });
-    //   };
-    //   this.messagesRef.limitToLast(20).on('child_added', onReceive);
-    // }
-
-    // this.setState({
-    //   messages: [
-    //     {
-    //       _id: id,
-    //       text: "Hello developer",
-    //       createdAt: new Date(),
-    //       user: {
-    //         _id: 2,
-    //         name: "ali",
-    //         avatar: require("../../assets/images/p4t.png")
-    //       }
-    //     },
-    //     {
-    //       _id: id,
-    //       text: "Hello developer2",
-    //       createdAt: new Date(),
-    //       user: {
-    //         _id: 3,
-    //         name: "React Native",
-    //         avatar: "https://facebook.github.io/react/img/logo_og.png"
-    //       }
-    //     }
-    //   ]
-    // });
-
-    // this.getMsgFromServer();
   }
-  // message = this.socket.on("mess", obj => {
-  //   return obj;
-  // });
-
-  // sendMessage(messages) {
-  //   this.setState(previousState => ({
-  //     messages: GiftedChat.append(previousState.messages, messages)
-  //   }));
-  //   for (let i = 0; i < messages.length; i++) {
-  //     const id = uuid4();
-  //     const Newobj = {
-  //       id: id,
-  //       text: messages[i].text,
-  //       user: messages[i].user,
-  //       createdAt: new Date()
-  //     };
-  //   }
-  // }
 
   setReceiver = receiver => {
     this.setState({ receiver });
   };
 
+  setMssages = message => {
+    this.setState(previousState => ({
+      messages: GiftedChat.append(previousState.messages, message)
+      // receiver: this.state.receiver
+    }));
+    // this.saveLocalStorage();
+  };
+
   onSend(messages = []) {
+    console.log("messages/messages", messages);
+    console.log("this.state.messages/this.state.messages", this.state.messages);
+
     this.setState(previousState => ({
       messages: GiftedChat.append(previousState.messages, messages)
     }));
-    console.log("messages,", messages);
+    // this.saveLocalStorage();
     const id = uuid4();
 
     let giftedChatMessages = messages.map(chatMessage => {
@@ -172,13 +136,34 @@ class Chat extends Component {
       };
       return gcm;
     });
-    socket.emit("message", giftedChatMessages[0]);
+
+    this.props.UserAction.sendMessage(giftedChatMessages[0]);
   }
 
   render() {
     return (
       <View style={{ flex: 1 }}>
-        <View
+        <NavigationEvents
+          // onWillFocus={() => this.saveLocalStorage()}
+          // onDidFocus={() => this.saveLocalStorage()}
+          onWillBlur={() => this.saveLocalStorage()}
+          // onDidBlur={() => this.saveLocalStorage()}
+        />
+        <GlobalHeader
+          Drawer={() =>
+            this.props.navigation.dispatch(DrawerActions.toggleDrawer())
+          }
+          searchIcon={true}
+          // Points="sss"
+          leftArrow1={true}
+          elevation={1}
+          backgroundColor={"#154a63"}
+          leftHeading={"sss"}
+          navigation={this.props.navigation}
+          // videoCallFunc={() => this.props.navigation.nvigate("WebRtc")}
+        />
+
+        {/* <View
           style={{
             width: "100%",
             height: 50,
@@ -190,30 +175,12 @@ class Chat extends Component {
           }}
         >
           <Text>receiver:{this.state.receiver}</Text>
+        </View> */}
+        {/* {this.state.messages.length > this.state.messages.length
+          ? console.log("worked")
+          : // ? this.saveLocalStorage()
 
-          {/* {this.state.friends.map((user, ind) => {
-            // console.log("user", user);
-            return (
-              <Content horizontal={true}>
-                <View
-                  style={{
-                    width: "70%",
-                    height: 40,
-                    backgroundColor: "red",
-                    borderWidth: 1
-                  }}
-                  key={ind}
-                >
-                  <TouchableOpacity
-                    onPress={() => this.setState({ receiver: user })}
-                  >
-                    <Text>Online friends:{user}</Text>
-                  </TouchableOpacity>
-                </View>
-              </Content>
-            );
-          })} */}
-        </View>
+            null} */}
 
         <GiftedChat
           messages={this.state.messages}
@@ -235,7 +202,8 @@ mapStateToProps = state => {
     isErr: state.AuthReducer.isErr,
     err: state.AuthReducer.err,
     // cellNumber: state.AuthReducer.cellNumber,
-    cellNo: state.AuthReducer.cellNo
+    cellNo: state.AuthReducer.cellNo,
+    newMessage: state.AuthReducer.message
   };
 };
 mapActionsToProps = dispatch => ({

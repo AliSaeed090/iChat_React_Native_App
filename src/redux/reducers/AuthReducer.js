@@ -48,7 +48,7 @@ export default function(state = initialState, action) {
         err: action.payload
       };
     case ActionsTypes.MESSAGE_RECEIVE:
-      console.log("MESSAGE_RECEIVE ACTION WORKED", action.payload);
+      // console.log("MESSAGE_RECEIVE ACTION WORKED", action.payload);
       return {
         ...state,
         message: action.payload

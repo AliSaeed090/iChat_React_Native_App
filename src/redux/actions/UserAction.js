@@ -48,7 +48,7 @@ export const VerifyCodeFirebase = (
 
       socket.on("mess", (obj, receiver) => {
         // messages.push(obj);
-        console.log("MessobjAction", obj, receiver);
+        // console.log("MessobjAction", obj, receiver);
         dispatch({
           type: ActionsTypes.MESSAGE_RECEIVE,
           payload: obj

@@ -6,6 +6,8 @@ import { bindActionCreators } from "redux";
 import * as UserAction from "../redux/actions/UserAction";
 import io from "socket.io-client";
 import Chat from "./Chat";
+import AsyncStorage from "@react-native-community/async-storage";
+import { NavigationEvents } from "react-navigation";
 
 import server from "../components/server";
 
@@ -31,18 +33,12 @@ class Inbox extends Component {
 
   addChatRoom = data => {
     let newChatRoom = this.state.arr;
-
     console.log("data.user._id", data.user._id);
-
     let success = newChatRoom.map((data, i) => data.name);
-
     var i = success.indexOf(data.user._id);
-
     console.log("index", i);
-
     if (success.includes(data.user._id)) {
       newChatRoom[i].msg.push(data);
-
       this.setState({ arr: newChatRoom });
     } else {
       let newData = {
@@ -50,7 +46,6 @@ class Inbox extends Component {
         msg: [data],
         time: data.createdAt
       };
-
       newChatRoom.push(newData);
       this.setState({ arr: newChatRoom });
     }
@@ -59,55 +54,65 @@ class Inbox extends Component {
   };
 
   componentDidMount() {
+    // AsyncStorage.clear();
     console.log("DidMountnextProps", this.props.newMessage);
-    // socket.emit("userConected", this.props.cellNo);
-
-    // socket.on("user_connected", user => {
-    //   console.log("userInbox", user);
-    //   for (i = 0; i <= user.length; i++) {
-    //     let onLine = [...this.state.onLine];
-    //     if (user[i] === onLine[i]) {
-    //       let value = this.props.cellNo;
-    //       onLine = onLine.filter(item => item !== value);
-
-    //       this.setState({ onLine });
-    //     } else {
-    //       onLine.push(user[i]);
-    //       let value = this.props.cellNo;
-    //       onLine = onLine.filter(item => item !== value);
-    //       this.setState({ onLine });
-    //     }
-    //   }
-    //   // let onLine = [...this.state.onLine];
-    //   // onLine.push(user);
-    // });
-    // socket.emit("userConected", this.props.cellNo);
-
-    socket.on("user_connected", user => {
-      let onLine = [...this.state.onLine];
-      if (user == this.props.cellNo || onLine.includes(user)) {
-        this.setState({ onLine });
+    socket.emit("getuser");
+    socket.on("getuser", user => {
+      if (user.includes(this.props.cellNo)) {
+        user.splice(user.indexOf(this.props.cellNo), 1);
+        this.setState({ onLine: user });
       } else {
-        onLine.push(user);
-        this.setState({ onLine });
+        this.setState({ onLine: user });
       }
     });
-    socket.on("mess", (obj, receiver) => {
-      // let messages = this.state.messages;
-      // messages.push(obj);
-      console.log("Messobjaaaaa", obj);
+    socket.on("user_connected", user => {
+      if (user.includes(this.props.cellNo)) {
+        user.splice(user.indexOf(this.props.cellNo), 1);
+        this.setState({ onLine: user });
+      } else {
+        this.setState({ onLine: user });
+      }
     });
 
-    //   // this.setState(previousState => ({
-    //   //   messages: GiftedChat.append(previousState.messages, obj),
-    //   //   receiver: receiver
-    //   // }));
-    // });
+    socket.on("mess", (obj, receiver) => {
+      console.log("Messobjaaaaa", obj);
+    });
   }
+  saveLocalStorage = () => {
+    let chatRooms = [...this.state.arr];
+
+    if (chatRooms.length) {
+      let copyChatRooms = JSON.stringify(chatRooms);
+
+      AsyncStorage.setItem("chatRooms", copyChatRooms).then(asyncResponse => {
+        console.log("asyncResponse", asyncResponse);
+      });
+    }
+  };
+
+  getLocalStorage = () => {
+    AsyncStorage.getItem("chatRooms").then(chatRooms => {
+      // console.log("chatRooms/chatRoomschatRooms", chatRooms);
+      var chatRooms = JSON.parse(chatRooms);
+      if (chatRooms) {
+        let newChatRooms = [...this.state.arr];
+        // newChatRooms.push(chatRooms);
+        // console.log("local storage", chatRooms);
+
+        this.setState({ arr: chatRooms });
+      }
+    });
+  };
 
   render() {
     return (
       <Container>
+        <NavigationEvents
+          onWillFocus={() => this.getLocalStorage()}
+          onDidFocus={() => this.saveLocalStorage()}
+          // onWillBlur={() => this.saveLocalStorage()}
+          // onDidBlur={() => this.saveLocalStorage()}
+        />
         <View
           style={{
             width: "100%",
@@ -124,7 +129,9 @@ class Inbox extends Component {
                   key={i}
                   style={{ marginTop: 10 }}
                   onPress={() =>
-                    this.props.navigation.navigate("Chat", { receiver: user })
+                    this.props.screenProps.stack.navigate("Chat", {
+                      receiver: user
+                    })
                   }
                 >
                   <Text style={{ marginLeft: 10 }}>{user}</Text>
@@ -139,11 +146,17 @@ class Inbox extends Component {
             return (
               <TouchableOpacity
                 onPress={() =>
-                  this.props.navigation.navigate("Chat", {
+                  this.props.screenProps.stack.navigate("Chat", {
                     receiver: data.name,
                     message: data.msg.reverse()
                   })
                 }
+                // onPress={() =>
+                //   this.props.navigation.navigate("Chat", {
+                //     receiver: data.name,
+                //     message: data.msg.reverse()
+                //   })
+                // }
                 key={index}
                 style={{
                   width: "100%",

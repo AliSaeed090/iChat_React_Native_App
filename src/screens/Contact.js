@@ -19,26 +19,17 @@ export default class Contact extends Component {
   render() {
     return (
       <Container>
-        {/* <TouchableOpacity
-          onPress={() =>
-            this.props.navigation.dispatch(DrawerActions.toggleDrawer())
-          }
-          style={{ width: 100, height: 100, backgroundColor: "red" }}
-        ></TouchableOpacity> */}
-        {/* <GlobalHeader
+        <GlobalHeader
           Drawer={() =>
             this.props.navigation.dispatch(DrawerActions.toggleDrawer())
           }
-          // SearchIcon={true}
-          // Points="sss"
-          leftArrow={true}
-          // elevation={1}
+          menu={true}
           backgroundColor={"#154a63"}
           navigation={this.props.navigation}
-        /> */}
+        />
 
-        <TabNavigotor />
-        {/* <AppIndex /> */}
+        <TabNavigotor screenProps={{ stack: this.props.navigation }} />
+        {/* <TabNavigotor /> */}
       </Container>
     );
   }

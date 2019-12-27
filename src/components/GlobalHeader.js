@@ -85,11 +85,11 @@ export default class HeaderExample extends Component {
             alignItems: "center"
           }}
         >
-          {this.props.leftArrow == true ? (
+          {this.props.menu == true ? (
             <TouchableOpacity onPress={this.props.Drawer}>
               <Icon name="menu" style={{ color: "white" }} />
             </TouchableOpacity>
-          ) : this.props.leftArrow1 !== "" ? (
+          ) : this.props.leftArrow == true ? (
             <TouchableOpacity onPress={() => this.props.navigation.goBack()}>
               <Ionicons name="ios-arrow-round-back" color={"white"} size={40} />
             </TouchableOpacity>
@@ -100,14 +100,15 @@ export default class HeaderExample extends Component {
               style={{ width: 30, height: 30, borderRadius: 100 }}
               source={{ uri: this.props.imageURL }}
             />
-          ) : (
-            <FontAwesome
-              name="user-circle"
-              color={"white"}
-              size={40}
-              style={{ marginLeft: 20 }}
-            />
-          )}
+          ) : // : (
+          //   <FontAwesome
+          //     name="user-circle"
+          //     color={"white"}
+          //     size={40}
+          //     style={{ marginLeft: 20 }}
+          //   />
+          // )
+          null}
 
           {this.props.leftHeading !== "" ? (
             <Text

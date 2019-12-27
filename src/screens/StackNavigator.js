@@ -118,7 +118,7 @@ const AppNavigator = createStackNavigator(
   },
 
   {
-    initialRouteName: "Contact"
+    initialRouteName: "CodePicker"
   }
 );
 

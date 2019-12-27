@@ -81,9 +81,8 @@ class Chat extends Component {
   // componentWillMount() {
   //   this.getLocalData();
   // }
-
   componentDidMount() {
-    // this.receiver = this.props.navigation.state.params.receiver;
+    this.receiver = this.props.navigation.state.params.receiver;
     // this.messages = this.props.navigation.state.params.message;
 
     // storage.remove({
@@ -155,7 +154,7 @@ class Chat extends Component {
           }
           searchIcon={true}
           // Points="sss"
-          leftArrow1={true}
+          leftArrow={true}
           elevation={1}
           backgroundColor={"#154a63"}
           leftHeading={"sss"}

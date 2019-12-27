@@ -35,7 +35,7 @@ const DrawerConfig = {
 export default createDrawerNavigator(
   {
     TermsService: {
-      screen: TabNavigotor
+      screen: Contact
     },
     Timing: {
       screen: TabNavigotor

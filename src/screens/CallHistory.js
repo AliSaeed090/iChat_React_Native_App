@@ -64,7 +64,7 @@ export default class Inbox extends Component {
           {this.state.arr.map((data, index) => {
             return (
               <TouchableOpacity
-                onPress={() => this.props.navigation.navigate("SignUp")}
+                onPress={() => this.props.screenProps.stack.navigate("SignUp")}
                 key={index}
                 style={{
                   width: "100%",

@@ -19,6 +19,10 @@ import GlobalHeader from "../components/GlobalHeader";
 import ContactUs from "./ContactUs";
 import PrivacyPolicy from "./PrivacyPolicy";
 import TabNavigotor from "./TabNavigotor";
+import { connect } from "react-redux";
+import { bindActionCreators } from "redux";
+import * as UserAction from "../redux/actions/UserAction";
+import SideMenu from "./SideMenu";
 
 const WIDTH = Dimensions.get("window").width;
 const DrawerConfig = {
@@ -28,7 +32,7 @@ const DrawerConfig = {
   overlayColor: "black",
 
   contentComponent: ({ navigation }) => {
-    return <Menu navigation={navigation} />;
+    return <SideMenu navigation={navigation} />;
   }
 };
 
@@ -64,154 +68,157 @@ export default createDrawerNavigator(
   DrawerConfig
 );
 
-class Menu extends React.Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <ImageBackground
-          style={{ width: "100%", height: "100%", resizeMode: "contain" }}
-          source={require("../../assets/images/drawer.png")}
-        >
-          <View
-            style={{
-              width: "100%",
-              borderBottomWidth: 1,
-              borderColor: "#e2e2e2",
-              height: 125
-            }}
-          >
-            <Image
-              style={{
-                width: 50,
-                height: 50,
-                resizeMode: "contain",
-                marginTop: 20,
-                marginLeft: 10
-              }}
-              source={require("../../assets/images/p.png")}
-            />
-            <Text
-              style={{
-                fontSize: 25,
-                color: "white",
+// class Menu extends React.Component {
+//   constructor(props) {
+//     super(props);
+//   }
+//   render() {
+//     return (
+//       <View style={styles.container}>
+//         <ImageBackground
+//           style={{ width: "100%", height: "100%", resizeMode: "contain" }}
+//           source={require("../../assets/images/drawer.png")}
+//         >
+//           <View
+//             style={{
+//               width: "100%",
+//               borderBottomWidth: 1,
+//               borderColor: "#e2e2e2",
+//               height: 125
+//             }}
+//           >
+//             <Image
+//               style={{
+//                 width: 50,
+//                 height: 50,
+//                 resizeMode: "contain",
+//                 marginTop: 20,
+//                 marginLeft: 10
+//               }}
+//               source={require("../../assets/images/p.png")}
+//             />
+//             <Text
+//               style={{
+//                 fontSize: 25,
+//                 color: "white",
 
-                marginLeft: 10,
-                marginTop: 15
-              }}
-            >
-              Atique Ahmed
-            </Text>
-          </View>
-          <TouchableOpacity
-            style={styles.imageView}
-            onPress={() => this.props.navigation.navigate("TermAndCond")}
-          >
-            <FontAwesome
-              name="phone"
-              size={30}
-              color="white"
-              style={styles.image}
-            />
-            <Text style={styles.text}>Terms And Conditions</Text>
-          </TouchableOpacity>
+//                 marginLeft: 10,
+//                 marginTop: 15
+//               }}
+//             >
+//               {this.props.userName}
+//             </Text>
+//           </View>
+//           <TouchableOpacity
+//             style={styles.imageView}
+//             onPress={() => this.props.navigation.navigate("TermAndCond")}
+//           >
+//             <FontAwesome
+//               name="phone"
+//               size={30}
+//               color="white"
+//               style={styles.image}
+//             />
+//             <Text style={styles.text}>Terms And Conditions</Text>
+//           </TouchableOpacity>
 
-          <TouchableOpacity
-            style={styles.imageView}
-            onPress={() => this.props.navigation.navigate("PrivacyPolicy")}
-          >
-            <FontAwesome
-              name="phone"
-              size={30}
-              color="white"
-              style={styles.image}
-            />
-            <Text
-              style={{
-                color: "white",
-                marginLeft: 40,
+//           <TouchableOpacity
+//             style={styles.imageView}
+//             onPress={() => this.props.navigation.navigate("PrivacyPolicy")}
+//           >
+//             <FontAwesome
+//               name="phone"
+//               size={30}
+//               color="white"
+//               style={styles.image}
+//             />
+//             <Text
+//               style={{
+//                 color: "white",
+//                 marginLeft: 40,
 
-                marginTop: 5,
-                fontSize: 16
-              }}
-            >
-              Privacy Policy
-            </Text>
-          </TouchableOpacity>
+//                 marginTop: 5,
+//                 fontSize: 16
+//               }}
+//             >
+//               Privacy Policy
+//             </Text>
+//           </TouchableOpacity>
 
-          <TouchableOpacity
-            style={styles.imageView}
-            onPress={() => this.props.navigation.navigate("ContactUs")}
-          >
-            <FontAwesome
-              name="phone"
-              size={30}
-              color="white"
-              style={styles.image}
-            />
-            <Text
-              style={{
-                color: "white",
+//           <TouchableOpacity
+//             style={styles.imageView}
+//             onPress={() => this.props.navigation.navigate("ContactUs")}
+//           >
+//             <FontAwesome
+//               name="phone"
+//               size={30}
+//               color="white"
+//               style={styles.image}
+//             />
+//             <Text
+//               style={{
+//                 color: "white",
 
-                marginLeft: 40,
+//                 marginLeft: 40,
 
-                marginTop: 5,
-                fontSize: 16
-              }}
-            >
-              Contact Us
-            </Text>
-          </TouchableOpacity>
+//                 marginTop: 5,
+//                 fontSize: 16
+//               }}
+//             >
+//               Contact Us
+//             </Text>
+//           </TouchableOpacity>
 
-          <TouchableOpacity
-            style={styles.imageView}
-            onPress={() => this.props.navigation.navigate("ContactUs")}
-          >
-            <Ionicons
-              name="md-settings"
-              size={30}
-              color="white"
-              style={styles.image}
-            />
-            <Text
-              style={{
-                color: "white",
-                marginLeft: 40,
+//           <TouchableOpacity
+//             style={styles.imageView}
+//             onPress={() => this.props.navigation.navigate("ContactUs")}
+//           >
+//             <Ionicons
+//               name="md-settings"
+//               size={30}
+//               color="white"
+//               style={styles.image}
+//             />
+//             <Text
+//               style={{
+//                 color: "white",
+//                 marginLeft: 40,
 
-                marginTop: 5,
-                fontSize: 16
-              }}
-            >
-              Settings
-            </Text>
-          </TouchableOpacity>
+//                 marginTop: 5,
+//                 fontSize: 16
+//               }}
+//             >
+//               Settings
+//             </Text>
+//           </TouchableOpacity>
 
-          <TouchableOpacity
-            style={styles.imageView}
-            onPress={() => this.props.navigation.navigate("Contact")}
-          >
-            <FontAwesome
-              name="heart"
-              size={30}
-              color="white"
-              style={styles.image}
-            />
-            <Text
-              style={{
-                marginLeft: 40,
-                color: "white",
+//           <TouchableOpacity
+//             style={styles.imageView}
+//             onPress={() => this.props.navigation.navigate("Contact")}
+//           >
+//             <FontAwesome
+//               name="heart"
+//               size={30}
+//               color="white"
+//               style={styles.image}
+//             />
+//             <Text
+//               style={{
+//                 marginLeft: 40,
+//                 color: "white",
 
-                marginTop: 5,
-                fontSize: 16
-              }}
-            >
-              Share with friend
-            </Text>
-          </TouchableOpacity>
-        </ImageBackground>
-      </View>
-    );
-  }
-}
+//                 marginTop: 5,
+//                 fontSize: 16
+//               }}
+//             >
+//               Share with friend
+//             </Text>
+//           </TouchableOpacity>
+//         </ImageBackground>
+//       </View>
+//     );
+//   }
+// }
 
 const styles = StyleSheet.create({
   container: {

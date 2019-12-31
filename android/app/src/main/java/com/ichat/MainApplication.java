@@ -3,6 +3,7 @@ package com.ichat;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.reactnative.ivpusic.imagepicker.PickerPackage;
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 import io.invertase.firebase.RNFirebasePackage;
 import io.invertase.firebase.auth.RNFirebaseAuthPackage;
@@ -14,6 +15,7 @@ import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
 import com.oney.WebRTCModule.WebRTCModulePackage; 
+import io.invertase.firebase.storage.RNFirebaseStoragePackage;
 
 import java.util.Arrays;
 import java.util.List;
@@ -30,13 +32,15 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new PickerPackage(),
             new AsyncStoragePackage(),
             new RNFirebasePackage(),
             new ReanimatedPackage(),
             new RNGestureHandlerPackage(),
             new VectorIconsPackage(),
             new RNFirebaseAuthPackage(),
-            new WebRTCModulePackage() 
+            new WebRTCModulePackage() ,
+            new RNFirebaseStoragePackage() 
       );
     }
 

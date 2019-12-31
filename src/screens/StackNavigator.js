@@ -16,6 +16,8 @@ import CodePicker from "../components/CodePicker";
 import ConfirmationCode from "./ConfirmationCode";
 import AfterSplash from "./Splash";
 import WebRtc from "./WebRtc";
+import ImageSave from "./ImageSave";
+import SideMenu from "./SideMenu";
 
 const AppNavigator = createStackNavigator(
   {
@@ -114,11 +116,23 @@ const AppNavigator = createStackNavigator(
       navigationOptions: () => ({
         header: null
       })
+    },
+    ImageSave: {
+      screen: ImageSave,
+      navigationOptions: () => ({
+        header: null
+      })
+    },
+    SideMenu: {
+      screen: SideMenu,
+      navigationOptions: () => ({
+        header: null
+      })
     }
   },
 
   {
-    initialRouteName: "CodePicker"
+    initialRouteName: "ImageSave"
   }
 );
 

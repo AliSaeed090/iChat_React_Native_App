@@ -38,6 +38,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\f533742883f9caf3f92230066b22ffcc\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,132,186,240,287",
+                        "endColumns": "76,53,53,46,116",
+                        "endOffsets": "127,181,235,282,399"
+                    },
+                    "to": {
+                        "startLines": "49,50,51,52,53",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "5162,5239,5293,5347,5394",
+                        "endColumns": "76,53,53,46,116",
+                        "endOffsets": "5234,5288,5342,5389,5506"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Ali Saeed\\.gradle\\caches\\transforms-2\\files-2.1\\15ac572884e4e4e9fe9f8ef8db21d99e\\res\\values-zh-rTW\\values.xml",
                     "from": {
                         "startLines": "4",

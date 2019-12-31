@@ -10,7 +10,9 @@ const initialState = {
   isErr: false,
   user: null,
   cellNo: null,
-  message: null
+  message: null,
+  profilePicture: null,
+  userName: null
 };
 
 export default function(state = initialState, action) {
@@ -46,6 +48,20 @@ export default function(state = initialState, action) {
         ...state,
         isErr: true,
         err: action.payload
+      };
+    case ActionsTypes.PROOFILE_PICTUTURE_UPLOADED:
+      console.log("PROOFILE_PICTUTURE_UPLOADED WORKED", action.payload);
+      return {
+        ...state,
+
+        profilePicture: action.payload
+      };
+    case ActionsTypes.SET_USER_NAME:
+      console.log("SET_USER_NAME WORKED", action.payload);
+      return {
+        ...state,
+
+        userName: action.payload
       };
     case ActionsTypes.MESSAGE_RECEIVE:
       // console.log("MESSAGE_RECEIVE ACTION WORKED", action.payload);

@@ -108,6 +108,7 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
     }
     splits {
         abi {
@@ -139,6 +140,7 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-image-crop-picker')
     implementation project(':@react-native-community_async-storage')
     implementation project(':react-native-firebase')
     implementation project(':react-native-reanimated')
@@ -150,6 +152,8 @@ dependencies {
     implementation "com.google.android.gms:play-services-base:16.1.0"
     implementation "com.google.firebase:firebase-core:16.0.9"
     implementation "com.google.firebase:firebase-auth:17.0.0"
+  implementation "com.google.firebase:firebase-storage:17.0.0"
+    // implementation "com.google.firebase:firebase-storage:{{ android.firebase.storage }}"
     compile project(':WebRTCModule')
     // implementation 'com.google.firebase:firebase-auth:19.1.0'
      

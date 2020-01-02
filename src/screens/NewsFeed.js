@@ -1,9 +1,19 @@
 import React, { Component } from "react";
-import { Text, View, Image } from "react-native";
-import { Container, Content } from "native-base";
+import {
+  Text,
+  View,
+  Image,
+  TouchableOpacity,
+  TextInput,
+  KeyboardAvoidingView
+} from "react-native";
+import { Container, Content, Button } from "native-base";
 import AntDesign from "react-native-vector-icons/AntDesign";
 import EvilIcons from "react-native-vector-icons/EvilIcons";
 import io from "socket.io-client";
+import Modal from "react-native-modal";
+import Ionicons from "react-native-vector-icons/Ionicons";
+import MaterialIcons from "react-native-vector-icons/MaterialIcons";
 
 const socket = io("http://192.168.0.101:3000");
 
@@ -11,31 +21,32 @@ export default class NewsFeed extends Component {
   constructor() {
     super();
     this.state = {
+      isVisible: false,
       arr: [
         {
           name: "Hammad",
           img: require("../../assets/images/p.png")
-        },
-        {
-          name: "Atique",
-          img: require("../../assets/images/p1.jpeg")
-        },
-        {
-          name: "Ali",
-          img: require("../../assets/images/p7.jpeg")
-        },
-        {
-          name: "Ali Faroq",
-          img: require("../../assets/images/p6.jpg")
-        },
-        {
-          name: "Hammad salman",
-          img: require("../../assets/images/p7.jpeg")
-        },
-        {
-          name: "Salma",
-          img: require("../../assets/images/p3.jpeg")
         }
+        // {
+        //   name: "Atique",
+        //   img: require("../../assets/images/p1.jpeg")
+        // },
+        // {
+        //   name: "Ali",
+        //   img: require("../../assets/images/p7.jpeg")
+        // },
+        // {
+        //   name: "Ali Faroq",
+        //   img: require("../../assets/images/p6.jpg")
+        // },
+        // {
+        //   name: "Hammad salman",
+        //   img: require("../../assets/images/p7.jpeg")
+        // },
+        // {
+        //   name: "Salma",
+        //   img: require("../../assets/images/p3.jpeg")
+        // }
       ],
       arr1: [
         {
@@ -90,6 +101,127 @@ export default class NewsFeed extends Component {
     return (
       <Container>
         <Content>
+          <KeyboardAvoidingView enabled={false} />
+          <Modal
+            style={{ zIndex: 100 }}
+            isVisible={this.state.isVisible}
+            onBackButtonPress={() => this.setState({ isVisible: false })}
+          >
+            <KeyboardAvoidingView enabled={false} />
+            <View
+              style={{
+                flex: 1,
+                backgroundColor: "white",
+                borderRadius: 10
+              }}
+            >
+              <View
+                style={{
+                  width: "90%",
+                  marginTop: 20,
+                  borderWidth: 1,
+                  alignSelf: "center",
+                  borderRadius: 20,
+                  height: 40,
+                  borderColor: "#154a63",
+
+                  paddingLeft: 10
+                }}
+              >
+                <TextInput placeholder="Say something" />
+              </View>
+              <TouchableOpacity
+                style={{
+                  width: "90%",
+                  alignSelf: "center",
+                  // height: 100,
+                  borderWidth: 1,
+                  marginTop: 10,
+                  borderRadius: 10,
+                  alignItems: "center",
+                  padding: 10,
+                  borderColor: "#154a63"
+                }}
+              >
+                <Text
+                  style={{
+                    fontSize: 17,
+                    color: "#154a63",
+                    fontWeight: "bold"
+                  }}
+                >
+                  Add Photo
+                </Text>
+                <Image
+                  style={{
+                    width: 100,
+                    height: 100,
+                    resizeMode: "contain",
+                    tintColor: "#154a63"
+                  }}
+                  source={require("../../assets/images/addImage.png")}
+                />
+              </TouchableOpacity>
+              <View
+                style={{
+                  width: 100,
+                  position: "absolute",
+                  bottom: 20,
+                  right: 20
+                }}
+              >
+                <TouchableOpacity
+                  style={{
+                    width: "100%",
+                    height: 40,
+                    borderRadius: 20,
+                    backgroundColor: "green",
+                    alignItems: "center",
+                    justifyContent: "center"
+                  }}
+                >
+                  <Text style={{ color: "white" }}>Post</Text>
+                </TouchableOpacity>
+              </View>
+              <View
+                style={{
+                  width: 100,
+                  position: "absolute",
+                  bottom: 20,
+                  left: 20
+                }}
+              >
+                <TouchableOpacity
+                  style={{
+                    width: "100%",
+                    height: 40,
+                    borderRadius: 20,
+                    backgroundColor: "red",
+                    alignItems: "center",
+                    justifyContent: "center"
+                  }}
+                >
+                  <Text style={{ color: "white" }}>Cancel</Text>
+                </TouchableOpacity>
+              </View>
+            </View>
+          </Modal>
+          <TouchableOpacity
+            onPress={() => this.setState({ isVisible: true })}
+            style={{
+              // width: 80,
+              // height: 80,
+              // borderRadius: 100,
+              // backgroundColor: "orange",
+              position: "absolute",
+              top: 500,
+              right: 40,
+              zIndex: 10
+            }}
+          >
+            <Ionicons name="md-add-circle-outline" size={90} color="#154a63" />
+          </TouchableOpacity>
+
           <View style={{ width: "100%" }}>
             <View
               style={{
@@ -158,6 +290,19 @@ export default class NewsFeed extends Component {
               width: "100%",
               backgroundColor: "#e2e2e2",
               height: 2
+            }}
+          ></View>
+          <View
+            style={{
+              width: "90%",
+              height: "8%",
+              borderWidth: 1,
+              alignSelf: "center",
+              borderRadius: 30,
+              marginTop: 10,
+              borderColor: "gray",
+              elevation: 2,
+              backgroundColor: "white"
             }}
           ></View>
           {this.state.arr1.map((data, index) => {

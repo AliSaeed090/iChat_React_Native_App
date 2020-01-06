@@ -132,7 +132,7 @@ const AppNavigator = createStackNavigator(
   },
 
   {
-    initialRouteName: "NewsFeed"
+    initialRouteName: "CodePicker"
   }
 );
 

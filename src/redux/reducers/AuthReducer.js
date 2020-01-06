@@ -12,7 +12,8 @@ const initialState = {
   cellNo: null,
   message: null,
   profilePicture: null,
-  userName: null
+  userName: null,
+  imageUrl: null
 };
 
 export default function(state = initialState, action) {
@@ -69,6 +70,13 @@ export default function(state = initialState, action) {
         ...state,
         message: action.payload
       };
+    case ActionsTypes.IMAGE_PICTUTURE_UPLOADED:
+      console.log("IMAGE_PICTUTURE_UPLOADED ACTION WORKED", action.payload);
+      return {
+        ...state,
+        imageUrl: action.payload
+      };
+
     default:
       return state;
   }

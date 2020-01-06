@@ -63,7 +63,7 @@ export const VerifyCodeFirebase = (
           index: 0,
           actions: [
             NavigationActions.navigate({
-              routeName: "Drawer"
+              routeName: "ImageSave"
             })
           ]
         })
@@ -93,10 +93,8 @@ export const sendMessage = giftedChatMessages => async dispatch => {
   // });
 };
 // file:///storage/emulated/0/Pictures/bb640a92-4ee3-4775-8ad4-3b2485f4b659.jpg
-export const uploadProfilePic = (userdata, imageResponse) => async dispatch => {
-  console.log("imageResponse.uri", imageResponse);
-  // console.log("imageResponse.uri", imageResponse);
 
+export const uploadProfilePic = (userdata, imageResponse) => async dispatch => {
   let storage = firebase.storage();
   storage
     .ref("/images")
@@ -118,6 +116,29 @@ export const uploadProfilePic = (userdata, imageResponse) => async dispatch => {
       }
     );
 };
+export const uploadImage = imageResponse => async dispatch => {
+  let storage = firebase.storage();
+  storage
+    .ref("/photoes")
+    .putFile(imageResponse.path)
+    .on(
+      firebase.storage.TaskEvent.STATE_CHANGED,
+      async snapshot => {
+        if (snapshot.state === firebase.storage.TaskState.SUCCESS) {
+          dispatch({
+            type: ActionsTypes.IMAGE_PICTUTURE_UPLOADED,
+            payload: snapshot.downloadURL
+          });
+          alert("uploaded");
+          console.log(snapshot.downloadURL);
+        }
+      },
+      error => {
+        console.error(error);
+      }
+    );
+};
+
 export const setUserName = userName => async dispatch => {
   dispatch({
     type: ActionsTypes.SET_USER_NAME,

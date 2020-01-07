@@ -54,6 +54,12 @@ export const VerifyCodeFirebase = (
           payload: obj
         });
       });
+      socket.on("postRecevied", post => {
+        dispatch({
+          type: ActionsTypes.POST_RECEIVED,
+          payload: post
+        });
+      });
       AsyncStorage.setItem(
         "user",
         JSON.stringify({ ...user, user })
@@ -129,8 +135,6 @@ export const uploadImage = imageResponse => async dispatch => {
             type: ActionsTypes.IMAGE_PICTUTURE_UPLOADED,
             payload: snapshot.downloadURL
           });
-          alert("uploaded");
-          console.log(snapshot.downloadURL);
         }
       },
       error => {
@@ -145,6 +149,23 @@ export const setUserName = userName => async dispatch => {
     payload: userName
   });
 };
+
+export const sendPost = post => async dispatch => {
+  console.log("post", post);
+  socket.emit("post", post);
+  // socket.on("postRecevied", post => {
+  //   dispatch({
+  //     type: ActionsTypes.POST_RECEIVED,
+  //     payload: post
+  //   });
+  // });
+};
+export const setNull = () => async dispatch => {
+  dispatch({
+    type: ActionsTypes.NULL
+  });
+};
+
 //     });
 // };
 

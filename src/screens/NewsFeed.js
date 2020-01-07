@@ -21,7 +21,7 @@ import * as UserAction from "../redux/actions/UserAction";
 
 import MaterialIcons from "react-native-vector-icons/MaterialIcons";
 
-const socket = io("http://192.168.0.101:3000");
+// const socket = io("http://192.168.0.101:3000");
 const date = new Date();
 class NewsFeed extends Component {
   constructor() {
@@ -98,11 +98,12 @@ class NewsFeed extends Component {
     };
   }
   post = () => {
+    this.newStatus = this.state.status;
     let arr1 = this.state.arr1;
     let newPost = {
       name: this.props.userName,
       img: this.state.avatarSource.uri,
-      ProfileImg: this.props.profilePicture,
+      profilePicture: this.props.profilePicture,
       city: "Karachi , Pakistan",
       status: this.state.status
     };
@@ -151,12 +152,41 @@ class NewsFeed extends Component {
     console.log("userId, this.state.avatarSource.uri", this.state.avatarSource);
     this.props.UserAction.uploadProfilePic("images", this.state.image);
   };
-  componentDidMount() {
-    socket.emit("new-user", "12345678");
-  }
-  componentWillMount(props) {
+  componentDidMount() {}
+  componentWillReceiveProps(props) {
     if (props.imageUrl) {
-      let post = {};
+      let post = {
+        name: this.props.userName,
+        img: props.imageUrl,
+        profilePicture: this.props.profilePicture,
+        city: "Karachi , Pakistan",
+        status: this.newStatus
+      };
+      this.props.UserAction.sendPost(post);
+      this.props.UserAction.setNull();
+    }
+
+    if (props.post) {
+      let arr1 = this.state.arr1;
+      console.log("worked", props.post);
+      // let newPost = {
+      //   name: this.props.userName,
+      //   img: this.state.avatarSource.uri,
+      //   ProfileImg: this.props.profilePicture,
+      //   city: "Karachi , Pakistan",
+      //   status: this.state.status
+      // };
+      // console.log("newPost", newPost);
+      arr1.push(props.post);
+      arr1.reverse();
+      this.props.UserAction.setNull();
+      this.setState({
+        arr1
+        // isVisible: false,
+        // name: "",
+        // avatarSource: "",
+        // status: ""
+      });
     }
   }
 
@@ -447,7 +477,7 @@ class NewsFeed extends Component {
                   >
                     <Image
                       style={{ height: 70, width: 70, borderRadius: 100 }}
-                      source={{ uri: data.ProfileImg }}
+                      source={{ uri: data.profilePicture }}
                     />
                     <View style={{ marginTop: 10, marginLeft: 10 }}>
                       <Text
@@ -543,7 +573,8 @@ mapStateToProps = state => {
     cellNo: state.AuthReducer.cellNo,
     newMessage: state.AuthReducer.message,
     profilePicture: state.AuthReducer.profilePicture,
-    imageUrl: state.AuthReducer.imageUrl
+    imageUrl: state.AuthReducer.imageUrl,
+    post: state.AuthReducer.post
   };
 };
 mapActionsToProps = dispatch => ({

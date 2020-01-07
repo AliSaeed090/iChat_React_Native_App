@@ -13,7 +13,8 @@ const initialState = {
   message: null,
   profilePicture: null,
   userName: null,
-  imageUrl: null
+  imageUrl: null,
+  post: null
 };
 
 export default function(state = initialState, action) {
@@ -75,6 +76,19 @@ export default function(state = initialState, action) {
       return {
         ...state,
         imageUrl: action.payload
+      };
+    case ActionsTypes.POST_RECEIVED:
+      console.log("POST_RECEIVED ACTION WORKED", action.payload);
+      return {
+        ...state,
+        post: action.payload
+      };
+    case ActionsTypes.NULL:
+      console.log("setNull ACTION WORKED");
+      return {
+        ...state,
+        post: null,
+        imageUrl: null
       };
 
     default:

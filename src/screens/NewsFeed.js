@@ -107,7 +107,7 @@ class NewsFeed extends Component {
       city: "Karachi , Pakistan",
       status: this.state.status
     };
-    console.log("newPost", newPost);
+
     arr1.push(newPost);
     arr1.reverse();
     this.setState({
@@ -129,8 +129,6 @@ class NewsFeed extends Component {
       compressImageQuality: 0.7
     })
       .then(image => {
-        console.log("done", image);
-
         this.setState({
           visible: false,
           image: image,
@@ -144,12 +142,9 @@ class NewsFeed extends Component {
         this.SaveImageToFirebase();
       })
 
-      .catch(err => {
-        console.log("Here error", err);
-      });
+      .catch(err => {});
   };
   SaveImageToFirebase = () => {
-    console.log("userId, this.state.avatarSource.uri", this.state.avatarSource);
     this.props.UserAction.uploadProfilePic("images", this.state.image);
   };
   componentDidMount() {}
@@ -168,24 +163,12 @@ class NewsFeed extends Component {
 
     if (props.post) {
       let arr1 = this.state.arr1;
-      console.log("worked", props.post);
-      // let newPost = {
-      //   name: this.props.userName,
-      //   img: this.state.avatarSource.uri,
-      //   ProfileImg: this.props.profilePicture,
-      //   city: "Karachi , Pakistan",
-      //   status: this.state.status
-      // };
-      // console.log("newPost", newPost);
+
       arr1.push(props.post);
       arr1.reverse();
       this.props.UserAction.setNull();
       this.setState({
         arr1
-        // isVisible: false,
-        // name: "",
-        // avatarSource: "",
-        // status: ""
       });
     }
   }

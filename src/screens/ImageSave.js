@@ -45,8 +45,6 @@ class ImageSave extends Component {
       compressImageQuality: 0.7
     })
       .then(image => {
-        console.log("done", image);
-
         this.setState({
           visible: false,
           image: image,
@@ -60,12 +58,9 @@ class ImageSave extends Component {
         this.SaveImageToFirebase();
       })
 
-      .catch(err => {
-        console.log("Here error", err);
-      });
+      .catch(err => {});
   };
   SaveImageToFirebase = () => {
-    console.log("userId, this.state.avatarSource.uri", this.state.avatarSource);
     this.props.UserAction.uploadProfilePic("images", this.state.image);
   };
 

@@ -17,9 +17,8 @@ class Inbox extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      // navigation: this.props.navigation,
       props: "",
-      // onLine: [1111111, 2222222, 33333, 444444],
+
       onLine: [],
 
       arr: []
@@ -33,10 +32,10 @@ class Inbox extends Component {
 
   addChatRoom = data => {
     let newChatRoom = this.state.arr;
-    console.log("data.user._id", data.user._id);
+
     let success = newChatRoom.map((data, i) => data.name);
     var i = success.indexOf(data.user._id);
-    console.log("index", i);
+
     if (success.includes(data.user._id)) {
       newChatRoom[i].msg.push(data);
       this.setState({ arr: newChatRoom });
@@ -49,13 +48,9 @@ class Inbox extends Component {
       newChatRoom.push(newData);
       this.setState({ arr: newChatRoom });
     }
-
-    console.log("this.state.arr", this.state.arr);
   };
 
   componentDidMount() {
-    // AsyncStorage.clear();
-    console.log("DidMountnextProps", this.props.newMessage);
     socket.emit("getuser");
     socket.on("getuser", user => {
       if (user.includes(this.props.cellNo)) {
@@ -74,9 +69,7 @@ class Inbox extends Component {
       }
     });
 
-    socket.on("mess", (obj, receiver) => {
-      console.log("Messobjaaaaa", obj);
-    });
+    socket.on("mess", (obj, receiver) => {});
   }
   saveLocalStorage = () => {
     let chatRooms = [...this.state.arr];
@@ -84,20 +77,18 @@ class Inbox extends Component {
     if (chatRooms.length) {
       let copyChatRooms = JSON.stringify(chatRooms);
 
-      AsyncStorage.setItem("chatRooms", copyChatRooms).then(asyncResponse => {
-        console.log("asyncResponse", asyncResponse);
-      });
+      AsyncStorage.setItem(
+        "chatRooms",
+        copyChatRooms
+      ).then(asyncResponse => {});
     }
   };
 
   getLocalStorage = () => {
     AsyncStorage.getItem("chatRooms").then(chatRooms => {
-      // console.log("chatRooms/chatRoomschatRooms", chatRooms);
       var chatRooms = JSON.parse(chatRooms);
       if (chatRooms) {
         let newChatRooms = [...this.state.arr];
-        // newChatRooms.push(chatRooms);
-        // console.log("local storage", chatRooms);
 
         this.setState({ arr: chatRooms });
       }
@@ -110,8 +101,6 @@ class Inbox extends Component {
         <NavigationEvents
           onWillFocus={() => this.getLocalStorage()}
           onDidFocus={() => this.saveLocalStorage()}
-          // onWillBlur={() => this.saveLocalStorage()}
-          // onDidBlur={() => this.saveLocalStorage()}
         />
         <View
           style={{
@@ -151,12 +140,6 @@ class Inbox extends Component {
                     message: data.msg.reverse()
                   })
                 }
-                // onPress={() =>
-                //   this.props.navigation.navigate("Chat", {
-                //     receiver: data.name,
-                //     message: data.msg.reverse()
-                //   })
-                // }
                 key={index}
                 style={{
                   width: "100%",
@@ -184,10 +167,6 @@ class Inbox extends Component {
                         borderRadius: 100
                       }}
                     ></View>
-                    {/* <Image
-                      style={{ width: 60, height: 60, resizeMode: "contain" }}
-                      source={data.img}
-                    /> */}
                   </View>
                   <View style={{ width: "65%", marginLeft: 10 }}>
                     <Text
@@ -228,7 +207,7 @@ mapStateToProps = state => {
     confirmResult: state.AuthReducer.confirmResult,
     isErr: state.AuthReducer.isErr,
     err: state.AuthReducer.err,
-    // cellNumber: state.AuthReducer.cellNumber,
+
     cellNo: state.AuthReducer.cellNo,
     newMessage: state.AuthReducer.message
   };

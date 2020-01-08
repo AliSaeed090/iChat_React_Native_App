@@ -679,6 +679,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable assets_images_addimage
 drawable assets_images_background2
 drawable assets_images_drawer
 drawable assets_images_feed

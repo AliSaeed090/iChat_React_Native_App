@@ -1,10 +1,7 @@
 import React, { Component } from "react";
 import { createStackNavigator, createAppContainer } from "react-navigation";
-// import GlobalHeader from "../components/GlobalHeader";
 import Contact from "./Contact";
 import Inbox from "./Inbox";
-import SignUp from "./SignUp";
-import SignIn from "./SignIn";
 import Drawer from "./Drawer";
 import NewsFeed from "./NewsFeed";
 import TabNavigotor from "./TabNavigotor";
@@ -18,21 +15,10 @@ import AfterSplash from "./Splash";
 import WebRtc from "./WebRtc";
 import ImageSave from "./ImageSave";
 import SideMenu from "./SideMenu";
+import WebrtcAudio from "./WebrtcAudio";
 
 const AppNavigator = createStackNavigator(
   {
-    SignUp: {
-      screen: SignUp,
-      navigationOptions: () => ({
-        header: null
-      })
-    },
-    SignIn: {
-      screen: SignIn,
-      navigationOptions: () => ({
-        header: null
-      })
-    },
     Contact: {
       screen: Contact,
       navigationOptions: () => ({
@@ -125,6 +111,12 @@ const AppNavigator = createStackNavigator(
     },
     SideMenu: {
       screen: SideMenu,
+      navigationOptions: () => ({
+        header: null
+      })
+    },
+    WebrtcAudio: {
+      screen: WebrtcAudio,
       navigationOptions: () => ({
         header: null
       })

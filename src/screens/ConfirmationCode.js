@@ -17,7 +17,6 @@ import {
 
 class ConfirmationCode extends Component {
   handlerOnFulfill = code => {
-    // console.log(code);
     this.props.UserAction.VerifyCodeFirebase(
       code,
       this.props.confirmResult,

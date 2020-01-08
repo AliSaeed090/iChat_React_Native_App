@@ -32,7 +32,6 @@ export default class WebRtc extends Component {
 
   call = () => {
     mediaDevices.enumerateDevices().then(sourceInfos => {
-      console.log("sourceInfos", sourceInfos);
       let videoSourceId;
       for (let i = 0; i < sourceInfos.length; i++) {
         const sourceInfo = sourceInfos[i];
@@ -65,8 +64,6 @@ export default class WebRtc extends Component {
             });
           });
 
-          console.log("stream", stream);
-
           this.setState({ localStreamURL: stream });
         })
         .catch(error => {
@@ -77,7 +74,6 @@ export default class WebRtc extends Component {
 
   componentDidMount() {
     mediaDevices.enumerateDevices().then(sourceInfos => {
-      console.log("sourceInfos", sourceInfos);
       let videoSourceId;
       for (let i = 0; i < sourceInfos.length; i++) {
         const sourceInfo = sourceInfos[i];
@@ -110,8 +106,6 @@ export default class WebRtc extends Component {
             });
           });
 
-          console.log("stream", stream);
-
           this.setState({ localStreamURL: stream });
         })
         .catch(error => {
@@ -120,7 +114,6 @@ export default class WebRtc extends Component {
     });
 
     socket.on("offer", message => {
-      console.log("offer", message);
       remote_pc.setRemoteDescription(message).then(() => {
         remote_pc.createAnswer().then(sdp => {
           remote_pc.setLocalDescription(sdp).then(() => {
@@ -129,7 +122,6 @@ export default class WebRtc extends Component {
         });
       });
       remote_pc.onaddstream = event => {
-        console.log("remote_pc.onaddstreamEvent", event.stream);
         this.setState({ remoteStreamURL: event.stream });
       };
     });
@@ -143,7 +135,6 @@ export default class WebRtc extends Component {
       if (event.icecandidate) {
         socket.emit("candidate", candidate);
       }
-      console.log("onicecandidate", event);
     };
 
     socket.on("candidate", candidate => {
@@ -152,42 +143,25 @@ export default class WebRtc extends Component {
     });
   }
 
-  // remote_pc.setRemoteDescription(new RTCSessionDescription(offer), ...) {
-  //   remote_pc.createAnswer()
-  // }
-
   render() {
     return (
       <View style={{ flex: 1 }}>
         <TouchableOpacity
           style={{
-            // marginTop: 20,
-            width: 100,
+            width: 150,
             height: 50,
-            backgroundColor: "gray",
+            backgroundColor: "green",
             position: "absolute",
-            bottom: 10,
-            left: 70,
-            zIndex: 100
+            bottom: 50,
+            left: 100,
+            zIndex: 100,
+            borderRadius: 30,
+            alignItems: "center",
+            justifyContent: "center"
           }}
           onPress={() => this.call()}
         >
-          <View
-          // style={{
-          //   // marginTop: 20,
-          //   width: "30%",
-          //   height: "10%",
-          //   backgroundColor: "gray",
-          //   alignItems: "center",
-          //   justifyContent: "center",
-          //   position: "absolute",
-          //   bottom: 100,
-          //   left: 50,
-          //   zIndex: 100
-          // }}
-          >
-            <Text> Start Call</Text>
-          </View>
+          <Text style={{ color: "white" }}> Start Call</Text>
         </TouchableOpacity>
         {this.state.remoteStreamURL ? (
           <View style={{ flex: 1 }}>

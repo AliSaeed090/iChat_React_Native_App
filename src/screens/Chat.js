@@ -65,33 +65,16 @@ class Chat extends Component {
         key: this.props.cellNo + this.receiver
       })
       .then(res => {
-        console.log("ret", res[0]);
         this.setState({
           messages: res
         });
       })
-      .catch(err => {
-        // any exception including data not found
-        // goes to catch()
-        console.warn(err.message);
-      });
+      .catch(err => {});
     this.setMssages(this.messages);
   };
 
-  // componentWillMount() {
-  //   this.getLocalData();
-  // }
   componentDidMount() {
     this.receiver = this.props.navigation.state.params.receiver;
-    // this.messages = this.props.navigation.state.params.message;
-
-    // storage.remove({
-    //   key: this.props.cellNo + this.receiver
-    // });
-    // if (this.messages) {
-    //   this.setMssages(this.messages);
-    // }
-    // this.getLocalData();
 
     if (this.receiver) {
       this.setReceiver(this.receiver);
@@ -105,19 +88,14 @@ class Chat extends Component {
   setMssages = message => {
     this.setState(previousState => ({
       messages: GiftedChat.append(previousState.messages, message)
-      // receiver: this.state.receiver
     }));
-    // this.saveLocalStorage();
   };
 
   onSend(messages = []) {
-    console.log("messages/messages", messages);
-    console.log("this.state.messages/this.state.messages", this.state.messages);
-
     this.setState(previousState => ({
       messages: GiftedChat.append(previousState.messages, messages)
     }));
-    // this.saveLocalStorage();
+
     const id = uuid4();
 
     let giftedChatMessages = messages.map(chatMessage => {
@@ -129,8 +107,6 @@ class Chat extends Component {
           _id: chatMessage.user._id,
           name: chatMessage.user.name,
           receiver: chatMessage.user.receiver
-          // avatar: chatMessage.user.avatar,
-          // receiver:
         }
       };
       return gcm;
@@ -142,44 +118,18 @@ class Chat extends Component {
   render() {
     return (
       <View style={{ flex: 1 }}>
-        <NavigationEvents
-          // onWillFocus={() => this.saveLocalStorage()}
-          // onDidFocus={() => this.saveLocalStorage()}
-          onWillBlur={() => this.saveLocalStorage()}
-          // onDidBlur={() => this.saveLocalStorage()}
-        />
+        <NavigationEvents onWillBlur={() => this.saveLocalStorage()} />
         <GlobalHeader
           Drawer={() =>
             this.props.navigation.dispatch(DrawerActions.toggleDrawer())
           }
           searchIcon={true}
-          // Points="sss"
           leftArrow={true}
           elevation={1}
           backgroundColor={"#154a63"}
           leftHeading={"sss"}
           navigation={this.props.navigation}
-          // videoCallFunc={() => this.props.navigation.nvigate("WebRtc")}
         />
-
-        {/* <View
-          style={{
-            width: "100%",
-            height: 50,
-            flexDirection: "row",
-            borderWidth: 1,
-            position: "absolute",
-            top: 0,
-            zIndex: 1
-          }}
-        >
-          <Text>receiver:{this.state.receiver}</Text>
-        </View> */}
-        {/* {this.state.messages.length > this.state.messages.length
-          ? console.log("worked")
-          : // ? this.saveLocalStorage()
-
-            null} */}
 
         <GiftedChat
           messages={this.state.messages}

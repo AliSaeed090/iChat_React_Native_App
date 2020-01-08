@@ -2164,6 +2164,10 @@
         "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_mn.png"
     },
     {
+        "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_assets_images_addimage.png.flat",
+        "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\assets_images_addimage.png"
+    },
+    {
         "merged": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_node_modules_reactnativephoneinput_lib_resources_flags_images_vi.png.flat",
         "source": "C:\\Users\\Ali Saeed\\Desktop\\New folder\\iChat_React_Native_App\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativephoneinput_lib_resources_flags_images_vi.png"
     },
